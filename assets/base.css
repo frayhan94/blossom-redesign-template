@@ -840,6 +840,32 @@ details > * {
   }
 }
 
+/* Featured collection fade-in animation */
+.featured-fade-in {
+  opacity: 0;
+  animation: featuredFadeIn 0.8s ease-out forwards;
+}
+
+.featured-fade-in:nth-child(1) { animation-delay: 0.1s; }
+.featured-fade-in:nth-child(2) { animation-delay: 0.2s; }
+.featured-fade-in:nth-child(3) { animation-delay: 0.3s; }
+.featured-fade-in:nth-child(4) { animation-delay: 0.4s; }
+.featured-fade-in:nth-child(5) { animation-delay: 0.5s; }
+.featured-fade-in:nth-child(6) { animation-delay: 0.6s; }
+.featured-fade-in:nth-child(7) { animation-delay: 0.7s; }
+.featured-fade-in:nth-child(8) { animation-delay: 0.8s; }
+
+@keyframes featuredFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .underlined-link,
 .customer a {
   color: rgba(var(--color-link), var(--alpha-link));
