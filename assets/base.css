@@ -762,6 +762,54 @@ details > * {
   }
 }
 
+/* Cart page fade-in animation */
+.cart-fade-in {
+  opacity: 0;
+  animation: cartFadeIn 0.8s ease-out forwards;
+}
+
+.cart-fade-in:nth-child(1) { animation-delay: 0.1s; }
+.cart-fade-in:nth-child(2) { animation-delay: 0.2s; }
+.cart-fade-in:nth-child(3) { animation-delay: 0.3s; }
+.cart-fade-in:nth-child(4) { animation-delay: 0.4s; }
+.cart-fade-in:nth-child(5) { animation-delay: 0.5s; }
+.cart-fade-in:nth-child(6) { animation-delay: 0.6s; }
+
+@keyframes cartFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Account pages fade-in animation */
+.account-fade-in {
+  opacity: 0;
+  animation: accountFadeIn 0.8s ease-out forwards;
+}
+
+.account-fade-in:nth-child(1) { animation-delay: 0.1s; }
+.account-fade-in:nth-child(2) { animation-delay: 0.2s; }
+.account-fade-in:nth-child(3) { animation-delay: 0.3s; }
+.account-fade-in:nth-child(4) { animation-delay: 0.4s; }
+.account-fade-in:nth-child(5) { animation-delay: 0.5s; }
+.account-fade-in:nth-child(6) { animation-delay: 0.6s; }
+
+@keyframes accountFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .underlined-link,
 .customer a {
   color: rgba(var(--color-link), var(--alpha-link));

@@ -5,15 +5,15 @@
 
 <div class="page-width{% if cart == empty %} is-empty{% endif %}" id="main-cart-footer" data-id="{{ section.id }}">
   <div>
-    <div class="cart__footer">
+    <div class="cart__footer cart-fade-in">
       {%- if section.settings.show_cart_note -%}
-        <cart-note class="cart__note field">
+        <cart-note class="cart__note field cart-fade-in">
           <label for="Cart-note">{{ 'sections.cart.note' | t }}</label>
           <textarea class="text-area text-area--resize-vertical field__input" name="note" id="Cart-note" placeholder="{{ 'sections.cart.note' | t }}">{{ cart.note }}</textarea>
         </cart-note>
       {%- endif -%}
 
-      <div class="cart__blocks">
+      <div class="cart__blocks cart-fade-in">
         {% for block in section.blocks %}
           {%- case block.type -%}
             {%- when '@app' -%}

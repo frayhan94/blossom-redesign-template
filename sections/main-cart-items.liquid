@@ -8,12 +8,12 @@
 <script src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
 
 <cart-items class="page-width{% if cart == empty %} is-empty{% endif %}">
-  <div class="title-wrapper-with-link">
+  <div class="title-wrapper-with-link cart-fade-in">
     <h1 class="title title--primary">{{ 'sections.cart.title' | t }}</h1>
     <a href="{{ routes.all_products_collection_url }}" class="underlined-link">{{ 'general.continue_shopping' | t }}</a>
   </div>
 
-  <div class="cart__warnings">
+  <div class="cart__warnings cart-fade-in">
     <h1 class="cart__empty-text">{{ 'sections.cart.empty' | t }}</h1>
     <a href="{{ routes.all_products_collection_url }}" class="button">
       {{ 'general.continue_shopping' | t }}
@@ -27,7 +27,7 @@
     {%- endif -%}
   </div>
 
-  <form action="{{ routes.cart_url }}" class="cart__contents critical-hidden" method="post" id="cart">
+  <form action="{{ routes.cart_url }}" class="cart__contents critical-hidden cart-fade-in" method="post" id="cart">
     <div class="cart__items" id="main-cart-items" data-id="{{ section.id }}">
       <div class="js-contents">
         {%- if cart != empty -%}
