@@ -59,10 +59,10 @@ zoomItem.style.transformOrigin = `${translateX}% ${translateY}%`;
 <link id="ModelViewerOverride" rel="stylesheet" href="{{ 'component-model-viewer-ui.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
 
-<section class=" custom-width">
-<div class="product grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
-<div class="grid__item product__media-wrapper">
-<div class="slider-container" >
+<section class=" custom-width product-fade-in">
+<div class="product grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %} product-fade-in">
+<div class="grid__item product__media-wrapper product-fade-in">
+<div class="slider-container product-fade-in" >
 <a class="skip-to-content-link button visually-hidden" href="#ProductInfo-{{ section.id }}">
 {{ "accessibility.skip_to_product_info" | t }}
 </a>
@@ -135,8 +135,8 @@ data-shopify-xr-hidden
 </button>
 {%- endif -%}
 </div>
-<div class="product__info-wrapper grid__item">
-<div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
+<div class="product__info-wrapper grid__item product-fade-in">
+<div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %} product-fade-in">
 {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
 {%- for block in section.blocks -%}
@@ -148,7 +148,7 @@ data-shopify-xr-hidden
 {{- block.settings.text -}}
 </p>
 {%- when 'title' -%}
-<h2 class="product__title image-with-text__heading h1" {{ block.shopify_attributes }}>
+<h2 class="product__title image-with-text__heading h1 product-fade-in" {{ block.shopify_attributes }}>
 {{ product.title | escape }}
 </h2>
 {%- when 'price' -%}
@@ -173,7 +173,7 @@ data-shopify-xr-hidden
 </div>
 {%- when 'description' -%}
 {%- if product.description != blank -%}
-<div class="product__description rte image-with-text__text rte product__description1">
+<div class="product__description rte image-with-text__text rte product__description1 product-fade-in">
 {{ product.description }} 
 </div>
 {%- endif -%}
