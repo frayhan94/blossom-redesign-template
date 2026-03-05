@@ -18,6 +18,30 @@
     "colors_background_2": "#F3F3F3",
     "type_header_font": "avenir_next_n7",
     "type_body_font": "avenir_next_rounded_n5",
+    "color_schemes": {
+      "scheme-1": {
+        "settings": {
+          "background": "#FFFFFF",
+          "background_gradient": "",
+          "text": "#121212",
+          "button": "#121212",
+          "button_label": "#FFFFFF",
+          "secondary_button_label": "#121212",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-2": {
+        "settings": {
+          "background": "#F3F3F3",
+          "background_gradient": "",
+          "text": "#121212",
+          "button": "#121212",
+          "button_label": "#F3F3F3",
+          "secondary_button_label": "#121212",
+          "shadow": "#121212"
+        }
+      }
+    },
     "social_facebook_link": "https://www.facebook.com/kali.dogwear",
     "social_instagram_link": "http://www.instagram.com/kali.dogwear",
     "favicon": "shopify://shop_images/Speechmark_4x_32x32_04fc8540-53f2-406e-829a-c92f82f6495a.png",
@@ -111,7 +135,7 @@
           "a49c99ab-8bd0-4de8-a0d5-cb81d1c2164e"
         ],
         "settings": {
-          "color_scheme": "accent-2",
+          "color_scheme": "background-1",
           "newsletter_enable": true,
           "newsletter_heading": "SUBSCRIBE FOR NEWS AND SPECIAL OFFERS",
           "show_social": false,
