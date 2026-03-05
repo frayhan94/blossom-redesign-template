@@ -6,11 +6,11 @@
 {%- paginate blog.articles by 6 -%}
 
   <div class="main-blog page-width">
-    <h1 class="title--primary">Blog</h1>
+    <h1 class="title--primary blog-fade-in">Blog</h1>
 
     <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}">
       {%- for article in blog.articles -%}
-        <div class="blog-articles__article article">
+        <div class="blog-articles__article article blog-fade-in">
           {%- render 'article-card', article: article, image_height: section.settings.image_height, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author -%}
         </div>
       {%- endfor -%}
