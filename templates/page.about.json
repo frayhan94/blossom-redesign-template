@@ -1,0 +1,423 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1637635446765b5fea": {
+      "type": "only_image",
+      "settings": {
+        "image1": "shopify://shop_images/team_1_ca5195e4-4135-44fe-970e-5427c122ce0b.jpg"
+      }
+    },
+    "about": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "page": ""
+      }
+    },
+    "16376331526bcc4e8a": {
+      "type": "image-with-text",
+      "blocks": {
+        "16376331517629f95c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "This Is Us"
+          }
+        },
+        "16376331517629f95c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A steadily growing team – mostly woman. <br/>Even though we don’t focus on a woman only team, we just happened to be one (almost). Everyone of us has a super power and all of them combined makes us quite strong. <br/>Before we introduce everyone of the team, let us share our values and beliefs with you. <br/></p>"
+          }
+        },
+        "16376331517629f95c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16376331517629f95c-0",
+        "16376331517629f95c-1",
+        "16376331517629f95c-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/team_2_8c762cb0-af01-41ad-9c99-5a7ed07fedf6.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "16376331551fc06fea": {
+      "type": "testimonial",
+      "disabled": true,
+      "blocks": {
+        "163763315583f5288c-0": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/1.png",
+            "title1": "Kindness",
+            "text1": "<p>We believe in being kind. <br/>Kind to other human beings and to animals. <br/>You never know what the person in front of you has experienced. We try to always assume the best and to give more than we take.</p>"
+          }
+        },
+        "07f491ba-901b-46ee-a8a0-c8b55c2dc13d": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/2.png",
+            "title1": "Responsibility",
+            "text1": "<p>Every single decision we make has to be made with the big picture in our head. <br/>We don’t think „but others don’t“ – we rather think ‚what if we all…?“</p>"
+          }
+        },
+        "d065af5c-75c6-46ee-93fd-ee05e333d7e2": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "title1": "Honesty & Transparent",
+            "text1": "<p>We are humans. We make mistakes. <br/>We believe in honesty and transparency. Every choice we make we made for a reason and we are happy to share. <br/>And we are also okay with saying „We made a mistake“. This is us.</p>"
+          }
+        },
+        "c1790f4b-97ac-48a7-8b24-e6d7144d870d": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/Website-Icons-09_1_1.png",
+            "title1": "The power of many",
+            "text1": "<p>We believe in collaboration, in exchange, in discussions. <br/>You got feedback for us? Please let us know! <br/>You would like to talk about an idea: Yeah for sure! <br/>If we all stick to our own business, we can’t grown and learn from each other. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "163763315583f5288c-0",
+        "07f491ba-901b-46ee-a8a0-c8b55c2dc13d",
+        "d065af5c-75c6-46ee-93fd-ee05e333d7e2",
+        "c1790f4b-97ac-48a7-8b24-e6d7144d870d"
+      ],
+      "settings": {
+        "title": "OUR VALUES",
+        "link1": "",
+        "text": ""
+      }
+    },
+    "16421392743f8084bc": {
+      "type": "testimonial",
+      "blocks": {
+        "164213927471d61265-0": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/1.png",
+            "title1": "Kindness",
+            "text1": "<p>We believe in being kind.<br/>Kind to other human beings and to animals.<br/>You never know what the person in front of you has experienced. We try to always assume the best and to give more than we take.</p>"
+          }
+        },
+        "89aff7a0-87a2-465f-ad51-847bd2c81502": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/2.png",
+            "title1": "Responsibility",
+            "text1": "<p>Every single decision we make has to be made with the big picture in our head.<br/>We don’t think „but others don’t“ – we rather think ‚what if we all…?“</p>"
+          }
+        },
+        "1dc47848-e984-41ee-99da-de3420335a13": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "title1": "Honesty & Transparency",
+            "text1": "<p>We are humans. We make mistakes.<br/>We believe in honesty and transparency. Every choice we make we made for a reason and we are happy to share.<br/>And we are also okay with saying „We made a mistake“. This is us.</p>"
+          }
+        },
+        "a662305f-6d2b-4dd8-8292-15915d67d35b": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/Website-Icons-09_1_1.png",
+            "title1": "The Power Of Many",
+            "text1": "<p>We believe in collaboration, in exchange, in discussions.<br/>You got feedback for us? Please let us know!<br/>You would like to talk about an idea: Yeah for sure!<br/>If we all stick to our own business, we can’t grown and learn from each other.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "164213927471d61265-0",
+        "89aff7a0-87a2-465f-ad51-847bd2c81502",
+        "1dc47848-e984-41ee-99da-de3420335a13",
+        "a662305f-6d2b-4dd8-8292-15915d67d35b"
+      ],
+      "settings": {
+        "title": "OUR VALUES",
+        "link1": "#",
+        "text": ""
+      }
+    },
+    "1637984056cedba6ec": {
+      "type": "special",
+      "blocks": {
+        "1637984056233cfd7e-0": {
+          "type": "image-text",
+          "settings": {
+            "image1": "shopify://shop_images/1907851B-3C82-4C2F-9A4B-55927159524F.png"
+          }
+        },
+        "c5b33091-94d4-4289-96c6-f30598eeeadf": {
+          "type": "image-text",
+          "settings": {
+            "image1": "shopify://shop_images/17A219B6-F7BE-45D8-A276-54576E2AD113.png"
+          }
+        },
+        "67d927b3-9738-441a-b00e-36e2db67711a": {
+          "type": "image-text",
+          "settings": {
+            "image1": "shopify://shop_images/69D3F3F6-828E-437D-A010-BAA669C32C0E.png"
+          }
+        },
+        "38e54bb8-4404-4c3d-bb29-58d5629ad1a4": {
+          "type": "image-text",
+          "settings": {
+            "image1": "shopify://shop_images/8BEAD5DE-9DA8-4B61-96B3-3332FF3A2D1D.png"
+          }
+        },
+        "68d448d8-8250-4c21-8795-8c31b1e2be23": {
+          "type": "image-text",
+          "settings": {
+            "image1": "shopify://shop_images/5C5F7597-8A70-4374-A1B1-47CFE0CEB36F.png"
+          }
+        }
+      },
+      "block_order": [
+        "1637984056233cfd7e-0",
+        "c5b33091-94d4-4289-96c6-f30598eeeadf",
+        "67d927b3-9738-441a-b00e-36e2db67711a",
+        "38e54bb8-4404-4c3d-bb29-58d5629ad1a4",
+        "68d448d8-8250-4c21-8795-8c31b1e2be23"
+      ],
+      "settings": {
+        "text": "Story behind Kali",
+        "desc": "<p>Annika the founder was in need of a new collar in Bali, Indonesia. No good quality to be found and only cheap plastic collars were sold. She decided to create her own collar as sustainable as she could, since Bali was in a crisis of pollution.<br/>After some research she came along some left-over yarn from garment factories in Java. Some YouTube videos and a long night later the first collar was born in October 2019. <br/><br/>After her first round she added some coconut yarn and tried to find metal buckles instead of the usual plastic ones. <br/>At the same time herself and her friends who are solo rescuers in Bali were struggling with the ongoing street dogs in need. Vet bills were just increasing without an end in sight. She was thinking about a sustainable way how to help the street dogs, without being in need of donations every single time. <br/><br/>Since her collar got quite some good feedback and her friends were asking for their own ones, she realized THIS was the solution. <br/>There is a need for lasting plastic-free collars AND that is how she can create funds for street dogs. <br/><br/>Kali Dogwear was born shortly after and weeks and weeks of sampeling paid of at some point. <br/><br/>The plan was to donate parts of the profits to a selected rescue dog foundation. <br/><br/>While the collars were an ongoing long process, the next product was born: The dogbed. And from there it took off. <br/><br/>In June 2021 the first shop opened in Canggu, Bali. </p>"
+      }
+    },
+    "1637633743835dbca1": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "16376337433332b11e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Story Behind Kali"
+          }
+        },
+        "16376337433332b11e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Annika the founder was in need of a new collar in Bali, Indonesia. No good quality to be found and only cheap plastic collars were sold. She decided to create her own collar as sustainable as she could, since Bali was in a crisis of pollution.<br/>After some research she came along some left-over yarn from garment factories in Java. Some YouTube videos and a long night later the first collar was born in October 2019. <br/><br/>After her first round she added some coconut yarn and tried to find metal buckles instead of the usual plastic ones. <br/>At the same time herself and her friends who are solo rescuers in Bali were struggling with the ongoing street dogs in need. Vet bills were just increasing without an end in sight. She was thinking about a sustainable way how to help the street dogs, without being in need of donations every single time. <br/><br/>Since her collar got quite some good feedback and her friends were asking for their own ones, she realized THIS was the solution. <br/>There is a need for lasting plastic-free collars AND that is how she can create funds for street dogs. <br/><br/>Kali Dogwear was born shortly after and weeks and weeks of sampeling paid of at some point. <br/><br/>The plan was to donate parts of the profits to a selected rescue dog foundation. <br/><br/>While the collars were an ongoing long process, the next product was born: The dogbed. And from there it took off. <br/><br/>In June 2021 the first shop opened in Canggu, Bali. </p>"
+          }
+        },
+        "16376337433332b11e-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16376337433332b11e-0",
+        "16376337433332b11e-1",
+        "16376337433332b11e-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "163763374997cb5eb4": {
+      "type": "testimonial",
+      "disabled": true,
+      "blocks": {
+        "1637633749ca44b4eb-0": {
+          "type": "image-text",
+          "settings": {
+            "title1": "Annika (Founder)",
+            "text1": "<p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>"
+          }
+        },
+        "4efdd091-32d0-4e3d-8f65-fc2808c25628": {
+          "type": "image-text",
+          "settings": {
+            "title1": "Devy (Operations manager)",
+            "text1": "<p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>"
+          }
+        },
+        "b430f9a7-7aa5-47e1-9a27-6281b55847d1": {
+          "type": "image-text",
+          "settings": {
+            "title1": "Maya (Designer)",
+            "text1": "<p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>"
+          }
+        },
+        "83d8ce1f-0f69-49f6-b356-40b715220582": {
+          "type": "image-text",
+          "settings": {
+            "title1": "Lania (Production Manager)",
+            "text1": "<p>Lania (Production Manager)</p>"
+          }
+        },
+        "343374bf-ffb4-426f-aafa-0393560b1036": {
+          "type": "image-text",
+          "settings": {
+            "title1": "Lills (Operations Assistant)",
+            "text1": "<p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>"
+          }
+        },
+        "fbe4aeb1-30a9-4fbd-ba57-61b52a5cb3e7": {
+          "type": "image-text",
+          "settings": {
+            "title1": "Kali (Secret Boss)",
+            "text1": "<p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>"
+          }
+        }
+      },
+      "block_order": [
+        "1637633749ca44b4eb-0",
+        "4efdd091-32d0-4e3d-8f65-fc2808c25628",
+        "b430f9a7-7aa5-47e1-9a27-6281b55847d1",
+        "83d8ce1f-0f69-49f6-b356-40b715220582",
+        "343374bf-ffb4-426f-aafa-0393560b1036",
+        "fbe4aeb1-30a9-4fbd-ba57-61b52a5cb3e7"
+      ],
+      "settings": {
+        "title": "The Team",
+        "link1": "",
+        "text": ""
+      }
+    },
+    "16376614569279c52d": {
+      "type": "team",
+      "blocks": {
+        "16376614560afea2c8-0": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/annika.jpg",
+            "title1": "Annika (Founder)",
+            "text1": "<p>With her background in design and marketing and with being the swiss army knife, she kickstarts ideas. <br/><br/>Superpowers: <br/>Multitasking at its best<br/><br/>Favorite thing to do within the company: <br/>Coming up with new product ideas</p>"
+          }
+        },
+        "02fd9a62-751a-4a73-ae38-ac27e99a4739": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/devy.jpg",
+            "title1": "Devy (Operations manager)",
+            "text1": "<p>Devy has been the first employee and knows every single bit of the company. <br/>She knows the history, she was there when the first collar was born and keeps the whole company on track.<br/><br/>Superpowers:<br/>Numbers and excel sheets</p>"
+          }
+        },
+        "096bf40d-7d59-4824-a536-806cc3394216": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/maya.jpg",
+            "title1": "Maya (Designer)",
+            "text1": "<p>Maya makes everything pretty in this company. All the cute little icons and graphics are her work. <br/>No project is too difficult and her favorit sentence is: „let me try!“<br/><br/>Superpowers: <br/>Magically make everything look good</p>"
+          }
+        },
+        "e389cb17-9ee0-467a-9237-70753318b8fc": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/lania_131e6e39-76d9-4815-b745-d223b3f10558.jpg",
+            "title1": "Lania (Production Manager)",
+            "text1": "<p>Lanias experience is in production and quality control. Her eyes won’t ever miss anything.<br/>We secretly think, she can see nano-meters. <br/><br/>Superpowers:<br/>Eyes of an eagle</p>"
+          }
+        },
+        "865b1930-dcb9-468f-88af-1b4baaa01f29": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/lilis.jpg",
+            "title1": "Lilis   (Operations Assistant)",
+            "text1": "<p>Lilis  is our good soul and always there when we need an extra hand. She supports Devy with the company operations and makes sure Kali gets enough pets. <br/><br/>Superpowers:<br/>Makes everyone feel better</p>"
+          }
+        },
+        "90aefa5e-4b8a-4936-8b48-2bb20575cc8e": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/Kali.jpg",
+            "title1": "Kali (Secret Boss)",
+            "text1": "<p>Kali is the secret boss of the company. She tests the products but actually doesn’t work. Her presence is all that we get.<br/><br/>Superpowers:<br/>Sleeping more than 20hrs per day<br/><br/>Favorite thing to do within the company: <br/>Getting the pets!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "16376614560afea2c8-0",
+        "02fd9a62-751a-4a73-ae38-ac27e99a4739",
+        "096bf40d-7d59-4824-a536-806cc3394216",
+        "e389cb17-9ee0-467a-9237-70753318b8fc",
+        "865b1930-dcb9-468f-88af-1b4baaa01f29",
+        "90aefa5e-4b8a-4936-8b48-2bb20575cc8e"
+      ],
+      "settings": {
+        "title": "The Team"
+      }
+    },
+    "163792319798e17855": {
+      "type": "heading",
+      "settings": {
+        "link1": "",
+        "text": "Meet our production!"
+      }
+    },
+    "16378069129f92945d": {
+      "type": "image-with-text",
+      "blocks": {
+        "1637806912cac75a61-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Fair production"
+          }
+        },
+        "1637806912cac75a61-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>After working with several production companies and single producers, we finally came to the conclusion that, if we want to provide steady quality and if we want to understand and know every single step of our production, we need to start producing ourselves.<br/><br/>This way we can make sure our tailors work under fair working conditions.<br/>We can make sure, that we don't use plastic.<br/>We can supervise every single step of our production and we are able to sample new products more efficiently.</p>"
+          }
+        },
+        "1637806912cac75a61-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1637806912cac75a61-0",
+        "1637806912cac75a61-1",
+        "1637806912cac75a61-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_4155_small_840e9b1b-bcdd-40f6-9467-4211a2ba6239.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    }
+  },
+  "order": [
+    "1637635446765b5fea",
+    "about",
+    "16376331526bcc4e8a",
+    "16376331551fc06fea",
+    "16421392743f8084bc",
+    "1637984056cedba6ec",
+    "1637633743835dbca1",
+    "163763374997cb5eb4",
+    "16376614569279c52d",
+    "163792319798e17855",
+    "16378069129f92945d"
+  ]
+}

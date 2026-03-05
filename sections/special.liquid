@@ -1,0 +1,76 @@
+<div class="special-sec">
+
+<div class="one-half-my">
+<div class="special-image">
+{% for block in section.blocks %}
+
+<div class="image-special">
+   
+<img src="{{ block.settings.image1 | img_url: 'master'}}" alt="proiden">
+ 
+</div>
+{% endfor %}
+</div>
+</div>
+
+
+<div class="one-half-my-sec">
+  <h2 class="image-with-text__heading h1">{{section.settings.text}}</h2> 
+  
+<div class="image-with-text__text rte">  
+  
+{{section.settings.desc}}
+  
+  </div>  
+  
+</div>
+
+</div>
+
+
+{% schema %}
+  {
+    "name": "Image",
+    "class": "logo-list-section",
+    "max_blocks": 20,
+    "settings": [
+      {
+        "type": "text",
+        "id": "text",
+        "label": "Heading",
+        "default": "Logo list"
+      },
+		{
+        "type": "richtext",
+        "id": "desc",
+        "label": "Heading",
+        "default": "<p>text</p>"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image-text",
+        "name": "Logo",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image1",
+            "label": "Image",
+            "info": "400 x 300px recommended"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Gallery Text",
+        "category": "Image",
+        "blocks": [
+          {
+            "type": "image-text"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

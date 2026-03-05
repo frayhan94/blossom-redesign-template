@@ -1,0 +1,163 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "16388798269eab19d8": {
+      "type": "image-banner",
+      "blocks": {
+        "1638879826ffe4e1ca-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "1638879826ffe4e1ca-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "1638879826ffe4e1ca-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1638879826ffe4e1ca-0",
+        "1638879826ffe4e1ca-1",
+        "1638879826ffe4e1ca-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Photo.png",
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "accordion": {
+      "type": "accordion",
+      "blocks": {
+        "7563e2d7-e64d-4bcb-a985-70bc1cb7e14f": {
+          "type": "image-text",
+          "settings": {
+            "title1": "Which size should I choose for my dog? (collar, bed, bandana) Can I wash the dog bed cover?",
+            "text": "<p>Yes you can! We added an extra inside cushion and zippers, so you can easily remove the outside cover and wash it. Please wash carefully and if your cover got a cotton-coconut handle, you might want to use handwash only. The coconut fiber is an open fiber and it hasn't been treated, therefor it's much more sensitive than synthetic fibers.</p>"
+          }
+        },
+        "b4101ebc-1949-4bde-9359-436e5e9bc414": {
+          "type": "image-text",
+          "settings": {
+            "title1": "How do you fill your dog beds?",
+            "text": "<p>The dog beds are filled with coconut fiber/husk. Locally sourced in Indonesia.</p>"
+          }
+        },
+        "c38e0f00-62b3-4e97-a047-3bf665f21244": {
+          "type": "image-text",
+          "settings": {
+            "title1": "Where do you produce?",
+            "text": "<p>We produce in Indonesia. Mostly in Bali with a very close eye on production.</p>"
+          }
+        },
+        "bb724b1f-d073-4b90-9252-a2bc30d44b16": {
+          "type": "image-text",
+          "settings": {
+            "title1": "Why don't you say \"sustainable\" anymore?",
+            "text": "<p>We realized, that being sustainable is very very difficult. In fact: What is actually sustainable? Where does it start, where does it end? We decided to go for the wording eco-friendly because we are in deed eco-friendly. We won't ever stop exploring new solutions and will work every day on getting even more eco-friendly.</p>"
+          }
+        },
+        "cf455a90-d4fb-4702-a6c8-55611f466915": {
+          "type": "image-text",
+          "settings": {
+            "title1": "Why are your products more expensive than other brands?",
+            "text": "<p>Because we produce in a fair way with high quality materials. We don't bargain prices with producers to a minimum, we pay fair wages and we give back.</p>"
+          }
+        },
+        "a2ad04e1-c65b-4f78-a91d-576b50af8010": {
+          "type": "image-text",
+          "settings": {
+            "title1": "Which collar size fits my dog?",
+            "text": "<p>Unfortunately we don't know :-) For now our dog collars are not adjustable. We kindly ask you to measure either the neck of your dog or their present dog collar. Please make sure to also measure the buckle (but not the part, that will be tucked inside). You can easily measure the neck of your dog with a rope and then measure the rope afterwards.</p>"
+          }
+        },
+        "7d9e819a-bf22-4262-8cc1-5d7ccd853f65": {
+          "type": "image-text",
+          "settings": {
+            "title1": "Can I wash my collar?",
+            "text": "<p>Yes! You can. But only handwash please, no bleach, no machine drying. Please be aware, that the coconut fiber is an open fiber and it hasn't been treated, therefor it's much more sensitive than synthetic fibers.</p>"
+          }
+        },
+        "183f3010-0e16-44bb-9bf2-946eb4ba1353": {
+          "type": "image-text",
+          "settings": {
+            "title1": "Does the metal of your collar rust?",
+            "text": "<p>It might happen. We tested the buckles and also the rings and drowned them in salt water for weeks. They didn't rust. But if the surface is scratched or damage, the rust can settle in. Not within 1 or 2 weeks, but depending on how you care for it, it might happen at some point.</p>"
+          }
+        },
+        "fc60f7f2-1d28-4159-810c-cc4bb01cd511": {
+          "type": "image-text",
+          "settings": {
+            "title1": "Why don't you use plastic buckles?",
+            "text": "<p>We are working on this! We don't want to add more plastic to this world's pollution. We are working on a recycled version for the buckle. Stay tuned!</p>"
+          }
+        },
+        "a8163b91-1fd5-4c51-956e-94fa8f5d0b40": {
+          "type": "image-text",
+          "settings": {
+            "title1": "Do you ship internationally?",
+            "text": "<p>Yes we do. For orders from Europe, please visit <a href=\"http://de.kalidogwear.com/\">de.kalidogwear.com</a> – otherwise please check international shipping fees. </p>"
+          }
+        },
+        "b8797ac3-fc72-4ac1-967d-396df046ffae": {
+          "type": "image-text",
+          "settings": {
+            "title1": "Where do your donations go?",
+            "text": "<p>5% of our profits go straight to the vet bills of bali.paws. Their vet is Sunset Vet in Bali.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "7563e2d7-e64d-4bcb-a985-70bc1cb7e14f",
+        "b4101ebc-1949-4bde-9359-436e5e9bc414",
+        "c38e0f00-62b3-4e97-a047-3bf665f21244",
+        "bb724b1f-d073-4b90-9252-a2bc30d44b16",
+        "cf455a90-d4fb-4702-a6c8-55611f466915",
+        "a2ad04e1-c65b-4f78-a91d-576b50af8010",
+        "7d9e819a-bf22-4262-8cc1-5d7ccd853f65",
+        "183f3010-0e16-44bb-9bf2-946eb4ba1353",
+        "fc60f7f2-1d28-4159-810c-cc4bb01cd511",
+        "a8163b91-1fd5-4c51-956e-94fa8f5d0b40",
+        "b8797ac3-fc72-4ac1-967d-396df046ffae"
+      ],
+      "settings": {
+        "title2": "FAQ's"
+      }
+    }
+  },
+  "order": [
+    "16388798269eab19d8",
+    "accordion"
+  ]
+}

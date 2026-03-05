@@ -1,0 +1,662 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/vogue-header_Valeria.png",
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "flex-end",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multi_column": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Eco-friendly</p>"
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Fast Delivery in Indonesia</p>"
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>5% of Sales Support Street Dogs</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "163704883639ebbb3a": {
+      "type": "collection-list",
+      "blocks": {
+        "16370488365c7b12b0-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bandanas"
+          }
+        },
+        "16370488365c7b12b0-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "toys"
+          }
+        },
+        "16370488365c7b12b0-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dog-bowls"
+          }
+        },
+        "2c801684-fc8a-4c2f-a3ca-0474fe91c6ed": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "collars"
+          }
+        },
+        "8afc2eac-1f03-4e72-ba5f-7a5a8a1f4ec7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "totebags"
+          }
+        },
+        "93543b3c-8051-45d5-b818-d231cd75fb95": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "leashes"
+          }
+        },
+        "816c57fb-278f-4837-8bb3-3a9d254c0f6c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "raincoat"
+          }
+        },
+        "154e70da-d59f-4921-9808-72d6eff50968": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "treats"
+          }
+        }
+      },
+      "block_order": [
+        "16370488365c7b12b0-0",
+        "16370488365c7b12b0-1",
+        "16370488365c7b12b0-2",
+        "2c801684-fc8a-4c2f-a3ca-0474fe91c6ed",
+        "8afc2eac-1f03-4e72-ba5f-7a5a8a1f4ec7",
+        "93543b3c-8051-45d5-b818-d231cd75fb95",
+        "816c57fb-278f-4837-8bb3-3a9d254c0f6c",
+        "154e70da-d59f-4921-9808-72d6eff50968"
+      ],
+      "settings": {
+        "title": "",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
+    "16370500283483070c": {
+      "type": "image-with-text",
+      "blocks": {
+        "1637050028a86ed12f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "dog beds"
+          }
+        },
+        "1637050028a86ed12f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our dog beds are our absolute bestsellers. Unlike other dog beds they are filled with coconut fiber from Indonesia, which makes the dog bed very eco-friendly. <br/>The coconut tree is one of the fastest growing trees and the fiber can easily be composted once you don’t need the bed anymore. <br/></p>"
+          }
+        },
+        "1637050028a86ed12f-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/dog-beds"
+          }
+        }
+      },
+      "block_order": [
+        "1637050028a86ed12f-0",
+        "1637050028a86ed12f-1",
+        "1637050028a86ed12f-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/kali-dogwear-0128_3x_c57ae5c9-f8c2-4e20-af33-0d51e_2_750x_7808ee3d-8f1b-4cdc-b881-5c335f7d5c31.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "163783239760490887": {
+      "type": "testimonial",
+      "blocks": {
+        "16378323974c21f457-0": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/70F0C985-952E-441C-8109-166897BCBF1C.png",
+            "title1": "Locally produced in Indonesia",
+            "text1": "<p>We work with producers that we treat like family. It takes a long time to find the perfect fit to work on a brand with high values. Most of our suppliers and partners are female business owners and we love it.</p>"
+          }
+        },
+        "c1fba0e3-62a0-4b6d-a8e9-2eb4a0863979": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/C9C52DBC-EFAD-4A4E-A267-875AE4A2B5AC.png",
+            "title1": "Handpicked materials",
+            "text1": "<p>With an eye on sustainability, we choose our materials. We can’t be 100% sustainable. That is just impossible, but every day we try our best to be as eco-friendly as we can be.</p>"
+          }
+        },
+        "65cc895e-f79c-4973-9b26-0441035f1557": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/7BAA66D3-547B-44F3-95A6-F10441447294_86af789f-31c4-4e7c-b961-2fb471d03ba6.png",
+            "title1": "No plastic",
+            "text1": "<p>We have a no plastic policy. We always remind our producers to not use single use plastic wrap and we carefully pick our packaging.</p>"
+          }
+        },
+        "8d63a031-7260-42ef-a653-1943f809bb14": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/88D12C88-99D1-4124-B3B6-84CE5605B354.png",
+            "title1": "Impact",
+            "text1": "<p>We give back 5% of our profit to help street dogs in need. <br/>We educate and raise awareness around animal welfare and pollution.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "16378323974c21f457-0",
+        "c1fba0e3-62a0-4b6d-a8e9-2eb4a0863979",
+        "65cc895e-f79c-4973-9b26-0441035f1557",
+        "8d63a031-7260-42ef-a653-1943f809bb14"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "How We Work",
+        "link1": "shopify://pages/shop",
+        "text": ""
+      }
+    },
+    "164214685016665109": {
+      "type": "testimonial",
+      "blocks": {
+        "164214685022095735-0": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/70F0C985-952E-441C-8109-166897BCBF1C.png",
+            "title1": "Locally Produced In Indonesia",
+            "text1": "<p>We work with producers that we treat like family. It takes a long time to find the perfect fit to work on a brand with high values. Most of our suppliers and partners are female business owners and we love it.</p>"
+          }
+        },
+        "7bbdc965-efec-400a-bb3d-c691db2ea0b1": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/C9C52DBC-EFAD-4A4E-A267-875AE4A2B5AC_1_1743a34c-7409-4c7b-bc5f-33ad34bc3bd2.png",
+            "title1": "Handpicked Materials",
+            "text1": "<p>With an eye on sustainability, we choose our materials. We can’t be 100% sustainable. That is just impossible, but every day we try our best to be as eco-friendly as we can be.</p>"
+          }
+        },
+        "6e62cd81-84ca-40bb-b027-406b9b37bcad": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/7BAA66D3-547B-44F3-95A6-F10441447294_86af789f-31c4-4e7c-b961-2fb471d03ba6.png",
+            "title1": "No Plastic",
+            "text1": "<p>We have a no plastic policy. We always remind our producers to not use single use plastic wrap and we carefully pick our packaging.</p>"
+          }
+        },
+        "0251cf36-1070-42c2-8533-793f1e5c835d": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/88D12C88-99D1-4124-B3B6-84CE5605B354.png",
+            "title1": "Impact",
+            "text1": "<p>We give back 5% of our profit to help street dogs in need.<br/>We educate and raise awareness around animal welfare and pollution.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "164214685022095735-0",
+        "7bbdc965-efec-400a-bb3d-c691db2ea0b1",
+        "6e62cd81-84ca-40bb-b027-406b9b37bcad",
+        "0251cf36-1070-42c2-8533-793f1e5c835d"
+      ],
+      "settings": {
+        "title": "HOW WE WORK",
+        "link1": "",
+        "text": ""
+      }
+    },
+    "16370504048fc804df": {
+      "type": "multicolumn",
+      "blocks": {
+        "1637050404a4a6b5ae-0": {
+          "type": "column",
+          "settings": {
+            "title": "Locally produced in Indonesia",
+            "text": "<p>Each of our suppliers & producers are treated like a part of our family. We put in significant time & effort to find the perfect fit, in terms of values & quality, for each element of our supply chain. Most of our suppliers and partners are local female business owners and we love having the opportunity to support them!</p>"
+          }
+        },
+        "1637050404a4a6b5ae-1": {
+          "type": "column",
+          "settings": {
+            "title": "Handpicked materials",
+            "text": "<p>We always first consider sustainability when choosing the materials used to make our products. Achieving 100% sustainability is impossible, but with every product we produce, we try our best to be as eco-friendly as possible. </p>"
+          }
+        },
+        "1637050404a4a6b5ae-2": {
+          "type": "column",
+          "settings": {
+            "title": "No plastic",
+            "text": "<p>We have a no plastic policy. We have an agreement with our producers to not use single-use plastic wrap and we carefully pick our packaging to avoid usage of plastic.</p>"
+          }
+        },
+        "dc97a7ca-0a7d-4326-a8e3-02b99c0d3532": {
+          "type": "column",
+          "settings": {
+            "title": "Impact",
+            "text": "<p>We donate 5% of our profits to help street dogs in need. We rescue dogs ourselves & work together with local foundations to rescue Bali street dogs and find them their forever homes. Our brand focuses on raising awareness around animal welfare and pollution.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "1637050404a4a6b5ae-0",
+        "1637050404a4a6b5ae-1",
+        "1637050404a4a6b5ae-2",
+        "dc97a7ca-0a7d-4326-a8e3-02b99c0d3532"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "how we work",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "163705967798b88bc9": {
+      "type": "testimonial",
+      "blocks": {
+        "ce9bc251-ccad-45d6-8f3a-41d6f93b35d0": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/barry_3x_440a183d-aadf-4bb4-a6d3-4f1f7480bf2f.png",
+            "title1": "Barry <br>Sanur, Bali",
+            "text1": "<p>Love all their products, story, and mission! Can only recommend to all pawrents 🐶</p>"
+          }
+        },
+        "1637059677146dab62-0": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/wilma_3x_89a7cddb-d97a-4861-aba4-01373cd30f8c.png",
+            "title1": "Wilma <br>Hamburg, Germany",
+            "text1": "<p>We love this very unique and tropical design and also that Kali Dogwear supports street dogs in need. </p>"
+          }
+        },
+        "2161e0a7-d095-4fdc-8d4e-562593e9381d": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/Peps.jpg",
+            "title1": "Peps <br>Canggu, Bali",
+            "text1": "<p>The best dog supply in Bali! Such a chick and elegant design! I love the beds and especially the bandanas. If it was up to my dog, she would buy all of them.</p>"
+          }
+        },
+        "8c884d8e-0c5a-4143-814a-9584c457141f": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/Bobbie.jpg",
+            "title1": "Bobbie <br>Amsterdam, Netherlands",
+            "text1": "<p>Our own rescue dog loves his Kali Dogwear Bandanas! </p>"
+          }
+        },
+        "e089f18a-1c26-441b-ae50-6b1e1c72e816": {
+          "type": "image-text",
+          "disabled": true,
+          "settings": {
+            "title1": "Lotta,  Hamburg, Germany",
+            "text1": "<p>Wilma Hamburg, Germany</p>"
+          }
+        },
+        "305eb4c8-7a89-498b-9f4e-76946b2bc8ad": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/Emmet.jpg",
+            "title1": "Emmet,  <br>Ahrensburg, Germany",
+            "text1": "<p>Emmet freut sich sehr über sein Bandana </p>"
+          }
+        },
+        "c1742af8-c57f-4699-bb99-48ff20323407": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/Bubbles.jpg",
+            "title1": "Bubbles <br>Milano, Italy",
+            "text1": "<p>Love all of their products, and my dog loves them too!! It's beautiful how they're also helping Bali dogs and the environment with their eco-friendly products. Totally recommend it!</p>"
+          }
+        },
+        "e7cf7d0f-e188-4ebf-a612-d87309c869fc": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/Ellie.jpg",
+            "title1": "Ellie,  <br>Hamburg, Germany",
+            "text1": "<p>Great and sustainable idea. The products speak for themselves. Thank you also for the good service!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "ce9bc251-ccad-45d6-8f3a-41d6f93b35d0",
+        "1637059677146dab62-0",
+        "2161e0a7-d095-4fdc-8d4e-562593e9381d",
+        "8c884d8e-0c5a-4143-814a-9584c457141f",
+        "e089f18a-1c26-441b-ae50-6b1e1c72e816",
+        "305eb4c8-7a89-498b-9f4e-76946b2bc8ad",
+        "c1742af8-c57f-4699-bb99-48ff20323407",
+        "e7cf7d0f-e188-4ebf-a612-d87309c869fc"
+      ],
+      "settings": {
+        "title": "what our customers say",
+        "link1": "",
+        "text": ""
+      }
+    },
+    "16370500399332968f": {
+      "type": "image-with-text",
+      "blocks": {
+        "1637050039f8c4dc12-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "christmas is coming"
+          }
+        },
+        "1637050039f8c4dc12-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get ready for the festive season. We have some Bandana designs, that will make you feel even more christmassy. <br/>Imagine mulled wine, a fire pit and getting cozy with your dog. </p>"
+          }
+        },
+        "1637050039f8c4dc12-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections"
+          }
+        }
+      },
+      "block_order": [
+        "1637050039f8c4dc12-0",
+        "1637050039f8c4dc12-1",
+        "1637050039f8c4dc12-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "163780752758bd3144": {
+      "type": "image-with-text",
+      "blocks": {
+        "1637807527de32d37e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "5% of sales support street dogs"
+          }
+        },
+        "1637807527de32d37e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Anyone who has visited Bali is well aware of the many street dogs on the island and has also likely witnessed their very sad and dangerous fate. We have never seen more suffering and cruelty against animals than here in Indonesia, and as long as there are no enforced laws, the dogs will continue to suffer. This reality is the reason why we started Kali Dogwear, to educate, raise awareness & make a positive impact on the lives of the local street dogs.<br/>We donate 5% of our profits to our charity partner, local dog rescue foundation, Bali Paws.</p>"
+          }
+        },
+        "1637807527de32d37e-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Read More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1637807527de32d37e-0",
+        "1637807527de32d37e-1",
+        "1637807527de32d37e-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Frame_2_750x_a7b95856-2fcc-4ac5-a19a-32cf7ac0927b.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1637807530a594268b": {
+      "type": "testimonial",
+      "blocks": {
+        "1637807530288d7dd5-0": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/Background_2_8dd2cebb-b1c5-4dff-b1d8-f6be4f58706c.png",
+            "title1": "First Aid",
+            "text1": "<p>Very severe cases have to go straight to the vet clinic to get treated. <br/>Broken bones, burns, distemper, Parvovirus – only to name a few can be life threatning.</p>"
+          }
+        },
+        "d2c2cf8d-28d4-47cb-943c-5c089039a730": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/C9C52DBC-EFAD-4A4E-A267-875AE4A2B5AC_1_1743a34c-7409-4c7b-bc5f-33ad34bc3bd2.png",
+            "title1": "Medication",
+            "text1": "<p>There is no day in Bali where you don’t see a street dog in need. Most of them have skin conditions (scabies) and can be easily treated with the right medication. </p>"
+          }
+        },
+        "4e59c6f7-156b-45da-9b8e-f36822f341c5": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/Background_f2d0fbe6-e8b6-4b0a-adf1-19dc672bd6d1.png",
+            "title1": "Dumped Puppies",
+            "text1": "<p>Dumped puppies are very common. Left alone from young age, they either make it or not. Several rescuers take them in, treat them and try to find foster or forever homes.</p>"
+          }
+        },
+        "288c812c-0f34-41bc-9029-ac3ac1819860": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/Background_1_2bd4236d-58e7-4e45-876a-4a6bf05b9fc2.png",
+            "title1": "Traumas",
+            "text1": "<p>Once a dog has been picked up from the streets you will also need to provide after care. It’s about socializing and building trust. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "1637807530288d7dd5-0",
+        "d2c2cf8d-28d4-47cb-943c-5c089039a730",
+        "4e59c6f7-156b-45da-9b8e-f36822f341c5",
+        "288c812c-0f34-41bc-9029-ac3ac1819860"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "link1": "",
+        "text": ""
+      }
+    },
+    "1637059698aca8c1cc": {
+      "type": "newsletter",
+      "blocks": {
+        "16370596982c070c76-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SUBSCRIBE FOR NEWS AND SPECIAL OFFERS"
+          }
+        },
+        "16370596982c070c76-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": ""
+          }
+        },
+        "16370596982c070c76-2": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "16370596982c070c76-0",
+        "16370596982c070c76-1",
+        "16370596982c070c76-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true
+      }
+    },
+    "163780805856d11eec": {
+      "type": "multicolumn",
+      "blocks": {
+        "1637808058ac8037ab-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+          }
+        },
+        "1637808058ac8037ab-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+          }
+        },
+        "1637808058ac8037ab-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "1637808058ac8037ab-0",
+        "1637808058ac8037ab-1",
+        "1637808058ac8037ab-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "16421458833c45ee9c": {
+      "type": "testimonial",
+      "blocks": {
+        "164214588344b34d5f-0": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/Background_2_8dd2cebb-b1c5-4dff-b1d8-f6be4f58706c.png",
+            "title1": "First Aid",
+            "text1": "<p>Very severe cases have to go straight to the vet clinic to get treated.<br/>Broken bones, burns, distemper, Parvovirus – only to name a few can be life threatning.</p>"
+          }
+        },
+        "575c6942-3b5c-491e-ab49-1c3940cbc980": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/C9C52DBC-EFAD-4A4E-A267-875AE4A2B5AC_1_1743a34c-7409-4c7b-bc5f-33ad34bc3bd2.png",
+            "title1": "Medication",
+            "text1": "<p>There is no day in Bali where you don’t see a street dog in need. Most of them have skin conditions (scabies) and can be easily treated with the right medication.</p>"
+          }
+        },
+        "856b56e0-964a-4a76-b18e-b5626c79bc10": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/Background_f2d0fbe6-e8b6-4b0a-adf1-19dc672bd6d1.png",
+            "title1": "Dumped Puppies",
+            "text1": "<p>Dumped puppies are very common. Left alone from young age, they either make it or not. Several rescuers take them in, treat them and try to find foster or forever homes.</p>"
+          }
+        },
+        "eb573fdd-28ef-4736-9101-763ed688533f": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/Background_1_2bd4236d-58e7-4e45-876a-4a6bf05b9fc2.png",
+            "title1": "Traumas",
+            "text1": "<p>Once a dog has been picked up from the streets you will also need to provide after care. It’s about socializing and building trust.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "164214588344b34d5f-0",
+        "575c6942-3b5c-491e-ab49-1c3940cbc980",
+        "856b56e0-964a-4a76-b18e-b5626c79bc10",
+        "eb573fdd-28ef-4736-9101-763ed688533f"
+      ],
+      "settings": {
+        "title": "",
+        "link1": "",
+        "text": ""
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "multi_column",
+    "163704883639ebbb3a",
+    "16370500283483070c",
+    "163783239760490887",
+    "164214685016665109",
+    "16370504048fc804df",
+    "163705967798b88bc9",
+    "16370500399332968f",
+    "163780752758bd3144",
+    "1637807530a594268b",
+    "1637059698aca8c1cc",
+    "163780805856d11eec",
+    "16421458833c45ee9c"
+  ]
+}

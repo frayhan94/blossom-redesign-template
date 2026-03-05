@@ -1,0 +1,175 @@
+<style>
+  
+  
+.card {
+    background: #fff;
+    color: #333;
+    margin: 6rem auto;
+
+    min-height: 30rem;
+    border-radius: 2rem;
+}
+  button.acc-btn {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-55%);
+}
+.hero .img {
+    filter: drop-shadow(0rem 1.5rem rgba(0,0,0,0.1));
+    transition: 0.3s ease-out;
+}
+.card:hover .img {
+    filter: drop-shadow(0rem 2.5rem rgba(0,0,0,0.1));
+}
+
+.title {
+    text-align: center;
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+.acc-container {
+    padding: 4rem 0rem;
+}
+.acc-btn {
+    width: 100%;
+    padding: 1.6rem 2rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    background: inherit;
+    border: none;
+    outline: none;
+    text-align: left;
+    transition: all 0.5s linear;
+}
+.acc-btn:after {
+    content: "\27A4";
+    color: #fa8d0c;
+    float: right;
+    transition: all 0.3s linear;
+}
+.acc-btn.is-open:after {
+    transform: rotate(90deg);
+}
+
+
+.acc-content {
+    max-height: 0;
+    color: rgba(0,0,0,0.75);
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    padding-left: 1rem;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    border-bottom: 1px solid #ccc;
+}
+
+.credit {
+    text-align: center;
+    padding: 1rem;
+}
+.credit a {
+    text-decoration: wavy underline;
+    color: dodgerblue;
+}
+  
+  main.card h2 {
+    font-size: 38px;
+    margin-bottom: 0;
+}
+  .acc-container {
+    padding-bottom: 0;
+}
+  
+</style>
+
+<div class="page-width">
+<main class="card">
+  <h2> {{section.settings.title2}} </h2>
+{% for block in section.blocks %}
+  <div class="acc-container">
+
+    <button class="acc-btn">{{block.settings.title1}}</button>
+    <div class="acc-content">
+      {{block.settings.text}}
+    </div>
+
+  </div>
+  {% endfor %}
+  
+</main>
+</div>
+
+
+
+<script>
+  const btns = document.querySelectorAll(".acc-btn");
+function accordion() {
+  this.classList.toggle("is-open");
+  const content = this.nextElementSibling;
+  if (content.style.maxHeight) content.style.maxHeight = null;
+  else content.style.maxHeight = content.scrollHeight + "px";
+}
+btns.forEach((el) => el.addEventListener("click", accordion));
+
+
+
+</script>
+
+
+
+
+{% schema %}
+  {
+    "name": "FAQ's",
+    "class": "FAQ",
+    "max_blocks": 20,
+    "settings": [
+             {
+        "type": "text",
+        "id": "title2",
+        "label": "Heading",
+        "default": "Logo list"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image-text",
+        "name": "FAQ's",
+        "settings": [
+        
+             {
+        "type": "text",
+        "id": "title1",
+        "label": "Heading",
+        "default": "Logo list"
+      },
+
+        {
+        "type": "richtext",
+        "id": "text",
+        "label": "text",
+"default": "<p>Logo list</p>"
+      }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "FAQ's",
+        "category": "Image",
+        "blocks": [
+          {
+            "type": "image-text"
+          }
+         
+        ]
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,67 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "88af161c-4d71-42a9-8d3f-a7fda01484eb": {
+      "type": "special",
+      "blocks": {
+        "template--15661993492619__88af161c-4d71-42a9-8d3f-a7fda01484eb-image-text-1": {
+          "type": "image-text",
+          "settings": {
+            "image1": "shopify://shop_images/1907851B-3C82-4C2F-9A4B-55927159524F.png"
+          }
+        },
+        "f6975957-ed47-4c60-a98e-9765d6fae172": {
+          "type": "image-text",
+          "settings": {
+            "image1": "shopify://shop_images/17A219B6-F7BE-45D8-A276-54576E2AD113.png"
+          }
+        },
+        "2586f007-30a3-4955-bc72-c552f84278a0": {
+          "type": "image-text",
+          "settings": {
+            "image1": "shopify://shop_images/69D3F3F6-828E-437D-A010-BAA669C32C0E.png"
+          }
+        },
+        "ddf70ae1-61d8-4a58-80e5-945f91fce563": {
+          "type": "image-text",
+          "settings": {
+            "image1": "shopify://shop_images/8BEAD5DE-9DA8-4B61-96B3-3332FF3A2D1D.png"
+          }
+        },
+        "2a38da83-f396-4651-81e4-e6dbaf68de43": {
+          "type": "image-text",
+          "settings": {
+            "image1": "shopify://shop_images/5C5F7597-8A70-4374-A1B1-47CFE0CEB36F.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--15661993492619__88af161c-4d71-42a9-8d3f-a7fda01484eb-image-text-1",
+        "f6975957-ed47-4c60-a98e-9765d6fae172",
+        "2586f007-30a3-4955-bc72-c552f84278a0",
+        "ddf70ae1-61d8-4a58-80e5-945f91fce563",
+        "2a38da83-f396-4651-81e4-e6dbaf68de43"
+      ],
+      "settings": {
+        "text": "Story behind Kali",
+        "desc": "<p>Annika the founder was in need of a new collar in Bali, Indonesia. No good quality to be found and only cheap plastic collars were sold. She decided to create her own collar as sustainable as she could, since Bali was in a crisis of pollution.<br/>After some research she came along some left-over yarn from garment factories in Java. Some YouTube videos and a long night later the first collar was born in October 2019. <br/><br/>After her first round she added some coconut yarn and tried to find metal buckles instead of the usual plastic ones. <br/>At the same time herself and her friends who are solo rescuers in Bali were struggling with the ongoing street dogs in need. Vet bills were just increasing without an end in sight. She was thinking about a sustainable way how to help the street dogs, without being in need of donations every single time. <br/><br/>Since her collar got quite some good feedback and her friends were asking for their own ones, she realized THIS was the solution. <br/>There is a need for lasting plastic-free collars AND that is how she can create funds for street dogs. <br/><br/>Kali Dogwear was born shortly after and weeks and weeks of sampeling paid of at some point. <br/><br/>The plan was to donate parts of the profits to a selected rescue dog foundation. <br/><br/>While the collars were an ongoing long process, the next product was born: The dogbed. And from there it took off. <br/><br/>In June 2021 the first shop opened in Canggu, Bali. </p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "88af161c-4d71-42a9-8d3f-a7fda01484eb"
+  ]
+}

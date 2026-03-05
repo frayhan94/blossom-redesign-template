@@ -1,0 +1,116 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "3e8aed4c-5e8d-4d0f-b1cd-4fd2402b6752": {
+      "type": "testimonial",
+      "blocks": {
+        "template--15661993459851__3e8aed4c-5e8d-4d0f-b1cd-4fd2402b6752-image-text-1": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/1.png",
+            "title1": "Kindness",
+            "text1": "<p>We believe in being kind.<br/>Kind to other human beings and to animals.<br/>You never know what the person in front of you has experienced. We try to always assume the best and to give more than we take.</p>"
+          }
+        },
+        "655e3667-3233-4c88-ac6f-bd33e8ec08e4": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/2.png",
+            "title1": "Responsibility",
+            "text1": "<p>Every single decision we make has to be made with the big picture in our head.<br/>We don’t think „but others don’t“ – we rather think ‚what if we all…?“</p>"
+          }
+        },
+        "78114e7f-229a-4ce2-b4aa-34c33cfec9c9": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "title1": "Honesty & Transparency",
+            "text1": "<p>We are humans. We make mistakes.<br/>We believe in honesty and transparency. Every choice we make we made for a reason and we are happy to share.<br/>And we are also okay with saying „We made a mistake“. This is us.</p>"
+          }
+        },
+        "373c782d-680a-473a-adac-6bd3fefab2d6": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/Website-Icons-09_1_1.png",
+            "title1": "The Power Of Many",
+            "text1": "<p>We believe in collaboration, in exchange, in discussions.<br/>You got feedback for us? Please let us know!<br/>You would like to talk about an idea: Yeah for sure!<br/>If we all stick to our own business, we can’t grown and learn from each other.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15661993459851__3e8aed4c-5e8d-4d0f-b1cd-4fd2402b6752-image-text-1",
+        "655e3667-3233-4c88-ac6f-bd33e8ec08e4",
+        "78114e7f-229a-4ce2-b4aa-34c33cfec9c9",
+        "373c782d-680a-473a-adac-6bd3fefab2d6"
+      ],
+      "settings": {
+        "title": "OUR VALUES",
+        "link1": "",
+        "text": ""
+      }
+    },
+    "2ad57d41-49d1-46da-9f3c-9efe27300336": {
+      "type": "heading",
+      "settings": {
+        "link1": "",
+        "text": "Meet our production!"
+      }
+    },
+    "248d5319-8227-4246-b859-6bc4877d3b08": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15661993459851__248d5319-8227-4246-b859-6bc4877d3b08-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "template--15661993459851__248d5319-8227-4246-b859-6bc4877d3b08-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>After working with several production companies and single producers, we finally came to the conclusion that, if we want to provide steady quality and if we want to understand and know every single step of our production, we need to start producing ourselves.<br/><br/>This way we can make sure our tailors work under fair working conditions.<br/>We can make sure, that we don't use plastic.<br/>We can supervise every single step of our production and we are able to sample new products more efficiently.</p>"
+          }
+        },
+        "template--15661993459851__248d5319-8227-4246-b859-6bc4877d3b08-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15661993459851__248d5319-8227-4246-b859-6bc4877d3b08-heading-1",
+        "template--15661993459851__248d5319-8227-4246-b859-6bc4877d3b08-text-1",
+        "template--15661993459851__248d5319-8227-4246-b859-6bc4877d3b08-button-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_4155_small_840e9b1b-bcdd-40f6-9467-4211a2ba6239.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e8aed4c-5e8d-4d0f-b1cd-4fd2402b6752",
+    "2ad57d41-49d1-46da-9f3c-9efe27300336",
+    "248d5319-8227-4246-b859-6bc4877d3b08"
+  ]
+}

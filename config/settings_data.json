@@ -1,0 +1,262 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": {
+    "colors_solid_button_labels": "#FFFFFF",
+    "colors_accent_1": "#121212",
+    "colors_accent_2": "#123132",
+    "colors_text": "#121212",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#FFFFFF",
+    "colors_background_2": "#F3F3F3",
+    "type_header_font": "avenir_next_n7",
+    "type_body_font": "avenir_next_rounded_n5",
+    "social_facebook_link": "https://www.facebook.com/kali.dogwear",
+    "social_instagram_link": "http://www.instagram.com/kali.dogwear",
+    "favicon": "shopify://shop_images/Speechmark_4x_32x32_04fc8540-53f2-406e-829a-c92f82f6495a.png",
+    "language_switcher_enabled": false,
+    "mlvedaACS_roundDecimal": false,
+    "mlvedaACS_positionLeft": "10px",
+    "mlvedaACS_defaultCurrency": "IDR",
+    "mlvedaACS_textColor": "inherit",
+    "mlvedaACS_autoSwitch": false,
+    "mlvedaACS_flagStyle": "circle",
+    "mlvedaACS_isMessageDisplay": true,
+    "mlvedaACS_positionBottom": "10px",
+    "mlvedaACS_messageBackgroundColor": "inherit",
+    "mlvedaACS_messageContent": "<<shop.name>> process all orders in <<shop.currency>>. While the content of your cart is currently displayed in <<shop.selected_currency>>, you will checkout using <<shop.currency>> at the most current exchange rate.",
+    "mlvedaACS_roundDecimalValue": 1,
+    "mlvedaACS_roundingrules": "{\"IDR\":{\"reference\":1000,\"rule\":1000}}",
+    "mlvedaACS_backgroundColor": "#ffffff",
+    "mlvedaACS_position": "inline",
+    "mlvedaACS_messageColor": "inherit",
+    "mlvedaACS_os2": true,
+    "mlvedaACS_textHoverColor": "inherit",
+    "mlvedaACS_enable": false,
+    "mlvedaACS_positionTop": "10px",
+    "mlvedaACS_supportedCurrencies": "USD IDR EUR",
+    "mlvedaACS_isCustomized": true,
+    "mlvedaACS_hideDecimal": false,
+    "mlvedaACS_hoverBackgroundColor": "inherit",
+    "mlvedaACS_positionRight": "10px",
+    "mlvedaACS_currencyFormat": "money_with_currency_format",
+    "mlvedaACS_borderLineColor": "inherit",
+    "mlvedaACS_displayFlag": false,
+    "mlvedaACS_borderLook": true,
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {}
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-1": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "heading": "WHERE TO FIND OUR PRODUCTS?",
+              "subtext": "<p><a href=\"https://goo.gl/maps/h1bmhufR3jturBWP8\" target=\"_blank\"><span style=\"text-decoration:underline\">KALI DOGWEAR SHOP</span></a><br/>Babakan, Canggu<br/><br/>PARTNER SHOPS<br/><a href=\"https://www.instagram.com/thedogbarkerybali/\" target=\"_blank\"><span style=\"text-decoration:underline\">The Dog Barkery</span></a><br/><a href=\"https://www.instagram.com/ohmydog.bali\" target=\"_blank\"><span style=\"text-decoration:underline\">Oh My Dog! Hotel</span></a></p><p><a href=\"https://balidirectstore.com/\" target=\"_blank\"><span style=\"text-decoration:underline\">Bali Direct Pererenan</span></a></p><p><a href=\"https://www.koastbali.com/\" target=\"_blank\"><span style=\"text-decoration:underline\">Koast Café Bali</span></a></p><p><a href=\"https://balicentralvet.com/\" target=\"_blank\"><span style=\"text-decoration:underline\">Central Vet</span></a></p>"
+            }
+          },
+          "b46e2b79-0662-4c1f-b9af-840c6fb78c7d": {
+            "type": "link_list",
+            "settings": {
+              "heading": "WHERE TO FIND OUR PRODUCTS?",
+              "menu": "footer-one"
+            }
+          },
+          "1169629e-aca9-42d0-b0fb-7bda79118f0c": {
+            "type": "link_list",
+            "settings": {
+              "heading": "About",
+              "menu": "about"
+            }
+          },
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Resources",
+              "menu": "resources"
+            }
+          },
+          "833b0875-ed51-42fd-bdba-f149157df268": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Info",
+              "menu": "footer-menu"
+            }
+          },
+          "a49c99ab-8bd0-4de8-a0d5-cb81d1c2164e": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Help",
+              "menu": "help"
+            }
+          }
+        },
+        "block_order": [
+          "footer-1",
+          "b46e2b79-0662-4c1f-b9af-840c6fb78c7d",
+          "1169629e-aca9-42d0-b0fb-7bda79118f0c",
+          "footer-0",
+          "833b0875-ed51-42fd-bdba-f149157df268",
+          "a49c99ab-8bd0-4de8-a0d5-cb81d1c2164e"
+        ],
+        "settings": {
+          "color_scheme": "accent-2",
+          "newsletter_enable": true,
+          "newsletter_heading": "SUBSCRIBE FOR NEWS AND SPECIAL OFFERS",
+          "show_social": false,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": false
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-1",
+          "logo": "shopify://shop_images/logo-square-1212-x-1212-300-dpi_3x_120x_3964f5c7-08d9-45dd-bc4f-3a1de1599cac.png",
+          "logo_width": 120,
+          "logo_position": "middle-left",
+          "menu": "home",
+          "show_line_separator": false,
+          "enable_sticky_header": true
+        }
+      },
+      "image-banner": {
+        "type": "image-banner",
+        "settings": {
+          "image": "shopify://shop_images/Photo_1.png",
+          "image_height": "medium",
+          "adapt_height_first_image": false,
+          "desktop_text_box_position": "center",
+          "show_text_box": true,
+          "image_overlay_opacity": 0,
+          "color_scheme": "background-1",
+          "stack_images_on_mobile": true,
+          "show_text_below": true
+        }
+      },
+      "new-contact": {
+        "type": "new-contact",
+        "settings": {
+          "heading": "Contact form"
+        }
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "15132424025755801183": {
+        "type": "shopify://apps/upload-lift-image-upload/blocks/app-embed/3c98bdcb-7587-4ade-bfe4-7d8af00d05ca",
+        "disabled": false,
+        "settings": {}
+      },
+      "6615124273980966592": {
+        "type": "shopify://apps/avada-whatsapp-chat-faq-page/blocks/app-embed/1c0e135d-e8e1-4fe2-86be-1c36def46675",
+        "disabled": false,
+        "settings": {}
+      },
+      "11724500921838622758": {
+        "type": "shopify://apps/frequently-bought-together/blocks/app-embed-block/b1a8cbea-c844-4842-9529-7c62dbab1b1f",
+        "disabled": false,
+        "settings": {}
+      },
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "button_color": "#202a36",
+          "button_icon": "chat_bubble",
+          "button_text": "no_text",
+          "button_horizontal_position": "bottom_left",
+          "button_vertical_position": "lowest",
+          "greeting_message": "👋 Hello! Please message us if you have questions, or ask us if you are looking for something specific. We’re happy to make recommendations."
+        }
+      },
+      "16477348613150133823": {
+        "type": "shopify://apps/unlimited-bundles/blocks/script-app-block/d33d0f48-dee0-42a0-b156-2a5dce91814a",
+        "disabled": false,
+        "settings": {
+          "reload_on_line_item_properties": false,
+          "disable_reload_on_cart_update": false,
+          "disable_cart_attribute_tracker": false,
+          "disable_facebook_events": false,
+          "enable_reload_on_bundle_auto_match": false,
+          "use_h2_header": false
+        }
+      }
+    }
+  },
+  "presets": {
+    "Craft": {
+      "colors_accent_1": "#2A332F",
+      "colors_text": "#1C1A1A",
+      "colors_background_1": "#EFECEC",
+      "colors_accent_2": "#476154",
+      "colors_outline_button_labels": "#7B8382",
+      "colors_solid_button_labels": "#EFECEC",
+      "colors_background_2": "#C1BCAE",
+      "type_body_font": "quattrocento_sans_n4",
+      "type_header_font": "americana_n4",
+      "sections": {
+        "footer": {
+          "settings": {
+            "color_scheme": "accent-1"
+          },
+          "blocks": {
+            "text": {
+              "settings": {},
+              "type": "text"
+            },
+            "menu": {
+              "settings": {},
+              "type": "link_list"
+            }
+          },
+          "type": "footer",
+          "block_order": [
+            "menu",
+            "text"
+          ]
+        }
+      }
+    },
+    "Default": {
+      "colors_accent_1": "#121212",
+      "colors_text": "#121212",
+      "colors_background_1": "#FFFFFF",
+      "colors_accent_2": "#334FB4",
+      "colors_outline_button_labels": "#121212",
+      "colors_solid_button_labels": "#FFFFFF",
+      "colors_background_2": "#F3F3F3",
+      "type_body_font": "assistant_n4",
+      "type_header_font": "assistant_n4",
+      "sections": {
+        "announcement-bar": {
+          "settings": {},
+          "blocks": {
+            "announcement-bar-0": {
+              "settings": {
+                "color_scheme": "background-1"
+              },
+              "type": "announcement"
+            }
+          },
+          "type": "announcement-bar",
+          "block_order": [
+            "announcement-bar-0"
+          ]
+        }
+      }
+    }
+  }
+}

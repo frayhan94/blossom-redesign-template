@@ -1,0 +1,129 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "6a92ef72-7ee7-4632-bd52-94698de8fa72": {
+      "type": "only_image",
+      "settings": {
+        "image1": "shopify://shop_images/team_1_ca5195e4-4135-44fe-970e-5427c122ce0b.jpg"
+      }
+    },
+    "fcd3fd5f-8ca2-45f9-b58c-d01bf67e54d8": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15661993427083__fcd3fd5f-8ca2-45f9-b58c-d01bf67e54d8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "This Is Us"
+          }
+        },
+        "template--15661993427083__fcd3fd5f-8ca2-45f9-b58c-d01bf67e54d8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A steadily growing team – mostly woman. <br/>Even though we don’t focus on a woman only team, we just happened to be one (almost). Everyone of us has a super power and all of them combined makes us quite strong. <br/>Before we introduce everyone of the team, let us share our values and beliefs with you. <br/></p>"
+          }
+        },
+        "template--15661993427083__fcd3fd5f-8ca2-45f9-b58c-d01bf67e54d8-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15661993427083__fcd3fd5f-8ca2-45f9-b58c-d01bf67e54d8-heading-1",
+        "template--15661993427083__fcd3fd5f-8ca2-45f9-b58c-d01bf67e54d8-text-1",
+        "template--15661993427083__fcd3fd5f-8ca2-45f9-b58c-d01bf67e54d8-button-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/team_2_8c762cb0-af01-41ad-9c99-5a7ed07fedf6.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "7e444790-fffd-45da-8ed4-9610c66a2862": {
+      "type": "team",
+      "blocks": {
+        "template--15661993427083__7e444790-fffd-45da-8ed4-9610c66a2862-image-text-1": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/annika.jpg",
+            "title1": "Annika (Founder)",
+            "text1": "<p>With her background in design and marketing and with being the swiss army knife, she kickstarts ideas. <br/><br/>Superpowers: <br/>Multitasking at its best<br/><br/>Favorite thing to do within the company: <br/>Coming up with new product ideas</p>"
+          }
+        },
+        "e9c2041c-f9ff-4c42-bf5a-9a9dfbdbede8": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/devy.jpg",
+            "title1": "Devy (Operations manager)",
+            "text1": "<p>Devy has been the first employee and knows every single bit of the company. <br/>She knows the history, she was there when the first collar was born and keeps the whole company on track.<br/><br/>Superpowers:<br/>Numbers and excel sheets</p>"
+          }
+        },
+        "1d5a748f-176c-4bbf-8dfd-a30c3e14aa60": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/maya.jpg",
+            "title1": "Maya (Designer)",
+            "text1": "<p>Maya makes everything pretty in this company. All the cute little icons and graphics are her work. <br/>No project is too difficult and her favorit sentence is: „let me try!“<br/><br/>Superpowers: <br/>Magically make everything look good</p>"
+          }
+        },
+        "36884d2d-6186-442e-ac4a-361a428201ae": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/lania_131e6e39-76d9-4815-b745-d223b3f10558.jpg",
+            "title1": "Lania (Production Manager)",
+            "text1": "<p>Lanias experience is in production and quality control. Her eyes won’t ever miss anything.<br/>We secretly think, she can see nano-meters. <br/><br/>Superpowers:<br/>Eyes of an eagle</p>"
+          }
+        },
+        "5f314745-57e4-4806-b22f-e9119793e7fd": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/lilis.jpg",
+            "title1": "Lilis   (Operations Assistant)",
+            "text1": "<p>Lilis  is our good soul and always there when we need an extra hand. She supports Devy with the company operations and makes sure Kali gets enough pets. <br/><br/>Superpowers:<br/>Makes everyone feel better</p>"
+          }
+        },
+        "df74d5bc-aeb2-4016-8e92-0e79cdc04e3c": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/Kali.jpg",
+            "title1": "Kali (Secret Boss)",
+            "text1": "<p>Kali is the secret boss of the company. She tests the products but actually doesn’t work. Her presence is all that we get.<br/><br/>Superpowers:<br/>Sleeping more than 20hrs per day<br/><br/>Favorite thing to do within the company: <br/>Getting the pets!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15661993427083__7e444790-fffd-45da-8ed4-9610c66a2862-image-text-1",
+        "e9c2041c-f9ff-4c42-bf5a-9a9dfbdbede8",
+        "1d5a748f-176c-4bbf-8dfd-a30c3e14aa60",
+        "36884d2d-6186-442e-ac4a-361a428201ae",
+        "5f314745-57e4-4806-b22f-e9119793e7fd",
+        "df74d5bc-aeb2-4016-8e92-0e79cdc04e3c"
+      ],
+      "settings": {
+        "title": "The Team"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "6a92ef72-7ee7-4632-bd52-94698de8fa72",
+    "fcd3fd5f-8ca2-45f9-b58c-d01bf67e54d8",
+    "7e444790-fffd-45da-8ed4-9610c66a2862"
+  ]
+}

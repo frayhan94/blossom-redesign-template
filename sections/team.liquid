@@ -1,0 +1,80 @@
+
+<div class="page-width">
+<div class="slider-wrap">
+  <h2 class="image-with-text__heading h1">{{section.settings.title}}</h2>
+  <div class="slider carousel">
+    
+      {% for block in section.blocks %}
+  <div class="slide carousel-cell">
+    
+    
+    <img src="{{ block.settings.image | img_url: 'master' }}" alt="" class="img-responsive">
+    <h1>{{ block.settings.title1 }}</h1>
+    {{block.settings.text1}}
+  </div>
+    
+    {% endfor %}
+    
+    
+    
+</div>
+
+</div>
+  
+</div>  
+
+
+{% schema %}
+  {
+    "name": "team",
+    "class": "logo-list-section",
+    "max_blocks": 20,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image-text",
+        "name": "block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image",
+            "info": "400 x 300px recommended"
+          },
+
+             {
+        "type": "text",
+        "id": "title1",
+        "label": "Heading",
+        "default": "title"
+      },
+          {
+        "type": "richtext",
+        "id": "text1",
+        "label": "text",
+"default": "<p>text</p>"
+      }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "team",
+        "category": "Image",
+        "blocks": [
+          {
+            "type": "image-text"
+          }
+         
+        ]
+      }
+    ]
+  }
+{% endschema %}

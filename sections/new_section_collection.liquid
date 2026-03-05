@@ -1,0 +1,96 @@
+<div class="main_collection">
+  <div class="col_1 new1">
+ <img src="{{ section.settings.image1 | img_url: 'master'}}" alt="proiden">
+    <div class="text_col image-with-text__text rte">
+    <h2 class="image-with-text__heading h1">{{section.settings.heading1}}</h2>
+    {{section.settings.text1}}
+      <a class="button button--primary spl" href=" {{section.settings.link1}}"> {{section.settings.btn1}}</a>
+    </div>
+  </div>
+  
+    <div class="col_1 new2">
+     <img src="{{ section.settings.image2 | img_url: 'master'}}" alt="proiden">
+    <div class="text_col text_col2 image-with-text__text rte">
+    <h2 class="image-with-text__heading h1">{{section.settings.heading2}}</h2>
+     {{section.settings.text2}}
+      <a class="button button--primary" href=" {{section.settings.link2}}"> {{section.settings.btn2}}</a>
+    </div>
+  </div>
+  
+</div>
+
+
+
+{% schema %}
+{
+    "name": "new_section_collection",
+    "class": "new_section_collection",
+    "settings": [
+{
+            "type": "image_picker",
+            "id": "image1",
+            "label": "Image1",
+            "info": "400 x 300px recommended"
+          },
+{
+            "type": "image_picker",
+            "id": "image2",
+            "label": "Image2",
+            "info": "400 x 300px recommended"
+          },
+{
+        "type": "text",
+        "id": "heading1",
+        "label": "Heading",
+        "default": "heading"
+      },
+
+{ 
+        "type": "text",
+        "id": "heading2",
+        "label": "Heading2",
+        "default": "heading"
+      },
+
+{
+        "type": "richtext",
+        "id": "text1",
+        "label": "Text1",
+        "default": "<p>Use this text to share information about your brand with your customers.</p>"
+      },
+{
+        "type": "richtext",
+        "id": "text2",
+        "label": "Text2",
+        "default": "<p>Use this text to share information about your brand with your customers.</p>"
+      },
+
+{
+"type": "url",
+"id": "link1",
+"label": "Button1 link"
+},
+{
+"type": "text",
+"id": "btn1",
+"label": "Button1 text"
+},
+{
+"type": "url",
+"id": "link2",
+"label": "Butto2 link"
+},
+{
+"type": "text",
+"id": "btn2",
+"label": "Button2 text"
+}
+    ],
+    "presets": [
+        {
+            "name": "new_section_collection",
+            "category": "Text"
+        }
+    ]
+}
+{% endschema %}

@@ -1,0 +1,24 @@
+<img src="{{ section.settings.image1 | img_url: 'master'}}" alt="proiden">
+
+
+
+{% schema %}
+{
+    "name": "Image",
+    "class": "image",
+    "settings": [
+{
+            "type": "image_picker",
+            "id": "image1",
+            "label": "Image",
+            "info": "400 x 300px recommended"
+          }
+    ],
+    "presets": [
+        {
+            "name": "image",
+            "category": "Text"
+        }
+    ]
+}
+{% endschema %}
