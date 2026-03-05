@@ -12,7 +12,7 @@
   {{ 'component-facets.css' | asset_url | stylesheet_tag }}
   <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
 
-  <div class="page-width" id="main-collection-filters" data-id="{{ section.id }}">
+  <div class="page-width collection-fade-in" id="main-collection-filters" data-id="{{ section.id }}">
     {% render 'facets', results: collection, enable_filtering: section.settings.enable_filtering, enable_sorting: section.settings.enable_sorting, collapse_on_larger_devices: section.settings.collapse_on_larger_devices %}
   </div>
 {%- endif -%}
@@ -20,9 +20,9 @@
 <div id="ProductGridContainer">
   {%- paginate collection.products by section.settings.products_per_page -%}
     {%- if collection.products.size == 0 -%}
-      <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
+      <div class="collection collection--empty page-width collection-fade-in" id="product-grid" data-id="{{ section.id }}">
         <div class="loading-overlay gradient"></div>
-        <div class="title-wrapper center">
+        <div class="title-wrapper center collection-fade-in">
           <h2 class="title title--primary">
             {{ 'sections.collection_template.empty' | t }}<br>
             {{ 'sections.collection_template.use_fewer_filters_html' | t: link: collection.url, class: "underlined-link link" }}
@@ -30,16 +30,16 @@
         </div>
       </div>
     {%- else -%}
-      <div class="collection page-width">
+      <div class="collection page-width collection-fade-in">
         <div class="loading-overlay gradient"></div>
 
         <ul id="product-grid" data-id="{{ section.id }}" class="
-          grid grid--2-col negative-margin product-grid
+          grid grid--2-col negative-margin product-grid collection-fade-in
           {% if collection.products_count < 4 %} grid--{{ collection.products_count }}-col-tablet{% else %}
             {% if collection.products_count == 4 %} grid--4-col-desktop{% else %} grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max{% endif %}
           {% endif %}">
           {%- for product in collection.products -%}
-            <li class="grid__item">
+            <li class="grid__item collection-fade-in">
               {% render 'product-card',
                 product_card_product: product,
                 media_size: section.settings.image_ratio,
