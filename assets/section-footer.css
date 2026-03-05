@@ -70,6 +70,14 @@
   box-shadow: 0 0 0 2px rgba(18, 18, 18, 0.1);
 }
 
+/* Contact form input focus styling */
+.contact .field__input:focus {
+  border-color: rgba(18, 18, 18, 0.8) !important;
+  border-width: 2px !important;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(18, 18, 18, 0.1);
+}
+
 .footer-block__newsletter .field__input::placeholder {
   color: rgba(18, 18, 18, 0.6) !important;
 }
