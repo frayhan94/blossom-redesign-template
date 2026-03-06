@@ -1102,6 +1102,13 @@ div#shopify-section-template--14450464129163__16376614569279c52d .slide.carousel
 .main-blog.page-width h1.title--primary {
     text-align: center;
     margin-bottom: 52px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+}
+
+.article-template__title {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
 }
 .header__icons {
     margin-right: 30px;
