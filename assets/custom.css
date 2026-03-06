@@ -1176,6 +1176,11 @@ h1, h2, h3, h4, h5, h6,
     font-weight: 400;
 }
 
+/* Page width - match Dawn theme centered layout */
+:root {
+    --page-width: 120rem;
+}
+
 /* Facets dropdown z-index fix */
 #main-collection-filters {
     position: relative;
