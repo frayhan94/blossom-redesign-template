@@ -1156,6 +1156,25 @@ div#shopify-section-template--14450464129163__16376614569279c52d .slide.carousel
     font-family: 'Assistant', sans-serif;
     font-weight: 400;
 }
+
+/* Global font styling for all pages - Dawn theme consistency */
+h1, h2, h3, h4, h5, h6,
+.title,
+.page-title,
+.main-page-title,
+.product__title,
+.collection .title,
+.blog .title,
+.article-template__title,
+.image-with-text__heading,
+.customer h1,
+.customer h2,
+.customer h3,
+.featured-collection .title,
+.cart .title {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+}
 .header__icons {
     margin-right: 30px;
 }
