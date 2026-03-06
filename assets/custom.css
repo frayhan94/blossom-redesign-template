@@ -1127,6 +1127,8 @@ span.language-label.language-name {
 h1.main-page-title.page-title.h0 {
     text-align: left;
     font-size: 40px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
     text-transform: uppercase;
 }
 .header__menu-item:hover {
