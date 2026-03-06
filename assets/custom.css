@@ -1146,6 +1146,16 @@ div#shopify-section-template--14450464129163__16376614569279c52d .slide.carousel
     font-family: 'Assistant', sans-serif;
     font-weight: 400;
 }
+
+/* Cart page headings */
+.cart .title,
+.cart__empty-text,
+.cart__login-title,
+.cart-notification__heading,
+.cart-items .cart-items__heading--wide {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+}
 .header__icons {
     margin-right: 30px;
 }
