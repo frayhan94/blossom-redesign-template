@@ -590,6 +590,8 @@ section#shopify-section-template--14225152933951__16370504048fc804df .multicolum
 h2.image-with-text__heading.h1 {
     text-transform: uppercase;
     color: #123132;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
 }
 
 .button.button--primary {
@@ -624,6 +626,8 @@ section#shopify-section-template--14225152933951__163704883639ebbb3a {
 
 h2.image-with-text__heading.h1 {
     letter-spacing: 7px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
 }
 div#shopify-section-template--14450464129163__16376614569279c52d .slide img {
     max-width: 100%;
@@ -1107,6 +1111,38 @@ div#shopify-section-template--14450464129163__16376614569279c52d .slide.carousel
 }
 
 .article-template__title {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+}
+
+/* About page headings */
+.special-sec h2.image-with-text__heading.h1,
+.team h2.image-with-text__heading.h1,
+.slider-wrap h2.image-with-text__heading.h1 {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+}
+
+/* Collection page headings */
+.collection .title,
+.collection-hero__title,
+.collection-list-title {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+}
+
+/* Product page headings */
+.product__title,
+.product__description-title {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+}
+
+/* Customer account pages headings */
+.customer h1,
+.customer h2,
+.customer h3,
+.customer h2.form__message {
     font-family: 'Assistant', sans-serif;
     font-weight: 400;
 }
