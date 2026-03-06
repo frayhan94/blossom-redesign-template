@@ -1176,6 +1176,25 @@ h1, h2, h3, h4, h5, h6,
     font-weight: 400;
 }
 
+/* Facets dropdown z-index fix */
+#main-collection-filters {
+    position: relative;
+    z-index: 5;
+}
+
+#ProductGridContainer {
+    position: relative;
+    z-index: 1;
+}
+
+.facets .disclosure-has-popup[open] > summary + * {
+    z-index: 10 !important;
+}
+
+.facets__display {
+    z-index: 10 !important;
+}
+
 /* Navigation font styling */
 .header__inline-menu .header__menu-item,
 .header__inline-menu .list-menu__item,
