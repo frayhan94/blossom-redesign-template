@@ -1125,7 +1125,7 @@ span.language-label.language-name {
     left: auto !important;
 }
 h1.main-page-title.page-title.h0 {
-    text-align: center;
+    text-align: left;
     font-size: 40px;
     text-transform: uppercase;
 }
