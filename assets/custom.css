@@ -1175,6 +1175,16 @@ h1, h2, h3, h4, h5, h6,
     font-family: 'Assistant', sans-serif;
     font-weight: 400;
 }
+
+/* Navigation font styling */
+.header__inline-menu .header__menu-item,
+.header__inline-menu .list-menu__item,
+.header__submenu .header__menu-item,
+.header__submenu .list-menu__item {
+    font-size: 1.4rem;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+}
 .header__icons {
     margin-right: 30px;
 }
