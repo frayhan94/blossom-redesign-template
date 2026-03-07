@@ -1,18 +1,32 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "info-links": {
+          "type": "text",
+          "settings": {
+            "heading": "Info",
+            "subtext": "<p><a href=\"/pages/shipping-policy\">Shipping Policy</a><br><a href=\"/pages/privacy-policy\">Privacy Policy</a><br><a href=\"/pages/refund-policy\">Refund policy</a><br><a href=\"/pages/terms-of-service\">Terms of service</a><br><a href=\"/pages/giveaway-terms\">Terms & Conditions Give away</a></p>"
+          }
+        },
+        "resources-links": {
+          "type": "text",
+          "settings": {
+            "heading": "Resources",
+            "subtext": "<p><a href=\"/blogs/news\">Blog</a></p>"
+          }
+        },
+        "help-links": {
+          "type": "text",
+          "settings": {
+            "heading": "Help",
+            "subtext": "<p><a href=\"/pages/contact\">Contact</a><br><a href=\"/pages/faq\">FAQ's</a><br><a href=\"/pages/dogbed-repair\">Dogbed Repair Service</a></p>"
+          }
+        }
+      },
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,

@@ -28,6 +28,34 @@
 {%- endstyle -%}
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+  <div class="footer__content-top page-width">
+    <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet grid--3-col-tablet">
+      <div class="footer-block grid__item">
+        <h2 class="footer-block__heading inline-richtext">Info</h2>
+        <ul class="footer-block__details-content list-unstyled">
+          <li><a href="/policies/shipping-policy" class="link link--text list-menu__item list-menu__item--link">Shipping Policy</a></li>
+          <li><a href="/policies/privacy-policy" class="link link--text list-menu__item list-menu__item--link">Privacy Policy</a></li>
+          <li><a href="/policies/refund-policy" class="link link--text list-menu__item list-menu__item--link">Refund policy</a></li>
+          <li><a href="/policies/terms-of-service" class="link link--text list-menu__item list-menu__item--link">Terms of service</a></li>
+          <li><a href="/pages/giveaway-terms" class="link link--text list-menu__item list-menu__item--link">Terms &amp; Conditions Give away</a></li>
+        </ul>
+      </div>
+      <div class="footer-block grid__item">
+        <h2 class="footer-block__heading inline-richtext">Resources</h2>
+        <ul class="footer-block__details-content list-unstyled">
+          <li><a href="/blogs/news" class="link link--text list-menu__item list-menu__item--link">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-block grid__item">
+        <h2 class="footer-block__heading inline-richtext">Help</h2>
+        <ul class="footer-block__details-content list-unstyled">
+          <li><a href="/pages/contact" class="link link--text list-menu__item list-menu__item--link">Contact</a></li>
+          <li><a href="/pages/faq" class="link link--text list-menu__item list-menu__item--link">FAQ's</a></li>
+          <li><a href="/pages/dogbed-repair" class="link link--text list-menu__item list-menu__item--link">Dogbed Repair Service</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
   {%- liquid
     assign has_social_icons = true
     if settings.social_facebook_link == blank and settings.social_instagram_link == blank and settings.social_youtube_link == blank and settings.social_tiktok_link == blank and settings.social_twitter_link == blank and settings.social_pinterest_link == blank and settings.social_snapchat_link == blank and settings.social_tumblr_link == blank and settings.social_vimeo_link == blank
