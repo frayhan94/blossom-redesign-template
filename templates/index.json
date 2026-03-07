@@ -321,6 +321,7 @@
           "settings": {
             "image": "shopify://shop_images/barry_3x_440a183d-aadf-4bb4-a6d3-4f1f7480bf2f.png",
             "heading": "Barry - Sanur, Bali",
+            "subheading": "",
             "text": "<p>Love all their products, story, and mission! Can only recommend to all pawrents 🐶</p>",
             "button_label": "",
             "button_link": "",
@@ -334,6 +335,7 @@
           "settings": {
             "image": "shopify://shop_images/wilma_3x_89a7cddb-d97a-4861-aba4-01373cd30f8c.png",
             "heading": "Wilma - Hamburg, Germany",
+            "subheading": "",
             "text": "<p>We love this very unique and tropical design and also that Kali Dogwear supports street dogs in need.</p>",
             "button_label": "",
             "button_link": "",
@@ -347,6 +349,7 @@
           "settings": {
             "image": "shopify://shop_images/Peps.jpg",
             "heading": "Peps - Canggu, Bali",
+            "subheading": "",
             "text": "<p>The best dog supply in Bali! Such a chick and elegant design! I love the beds and especially the bandanas. If it was up to my dog, she would buy all of them.</p>",
             "button_label": "",
             "button_link": "",
@@ -360,6 +363,7 @@
           "settings": {
             "image": "shopify://shop_images/Emmet.jpg",
             "heading": "Emmet - Ahrensburg, Germany",
+            "subheading": "",
             "text": "<p>Emmet freut sich sehr über sein Bandana</p>",
             "button_label": "",
             "button_link": "",
