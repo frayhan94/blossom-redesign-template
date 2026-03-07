@@ -852,58 +852,7 @@ section#shopify-section-template--14450464293003__1637134405b6ab29ac {
     padding-bottom: 50px;
 }
 
-.main_collection {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-between;
-}
-
-.col_1 {
-    width: 50%;
-    position: relative;
-}
-
-.col_1 img {
-    max-width: 100%;
-    display: block;
-}
-
-.text_col {
-    position: absolute;
-    bottom: 60px;
-    left: 20%;
-}
-
-.text_col.text_col2 {
-    bottom: 18%;
-    top: inherit;
-}
-
-.text_col h2 {
-    padding-bottom: 24px;
-}
-
-.col_1 p {
-    padding: 0 0 20px 0px;
-}
-
-div#shopify-section-template--14450464293003__1637137482fd0b107b {
-    margin: 0;
-    background: #EBEEEC;
-    padding: 25px 0;
-}
-
-div#shopify-section-template--14450464293003__1637137482fd0b107b .image-with-text__grid.color-background-1.grid.grid--gapless.grid--1-col.grid--2-col-tablet.gradient.image-with-text__grid--reverse {
-    background: none;
-}
-
-
-section#shopify-section-template--14225835884607__16371374854ba9bac8 {
-    background: #ebeeec;
-    margin: 0;
-    padding: 10px 0 71px 0;
-}
+/* Collection section now uses standard image-with-text component */
 
 div#Banner-template--14225835884607__16371376455ed7de1d .banner__box.color-background-1 {
     background: none;

@@ -1,22 +1,47 @@
-<div class="main_collection">
-  <div class="col_1 new1">
- <img src="{{ section.settings.image1 | img_url: 'master'}}" alt="proiden">
-    <div class="text_col image-with-text__text rte">
-    <h2 class="image-with-text__heading h1">{{section.settings.heading1}}</h2>
-    {{section.settings.text1}}
-      <a class="button button--primary spl" href=" {{section.settings.link1}}"> {{section.settings.btn1}}</a>
+<div class="image-with-text page-width color-scheme-background-1">
+  <div class="image-with-text__grid color-background-1 grid grid--gapless grid--1-col grid--2-col-tablet gradient about-fade-in">
+    <div class="grid__item">
+      <div class="image-with-text__media image-with-text__media--adapt about-fade-in media">
+        <img src="{{ section.settings.image1 | img_url: '750x' }}" alt="{{ section.settings.heading1 }}" loading="lazy" width="750" height="auto">
+      </div>
+    </div>
+    <div class="grid__item">
+      <div class="image-with-text__content image-with-text__content--adapt">
+        <h2 class="image-with-text__heading h1">
+          {{section.settings.heading1}}
+        </h2>
+        <div class="image-with-text__text rte">
+          {{section.settings.text1}}
+        </div>
+        <a href="{{section.settings.link1}}" class="button button--primary">
+          {{section.settings.btn1}}
+        </a>
+      </div>
     </div>
   </div>
-  
-    <div class="col_1 new2">
-     <img src="{{ section.settings.image2 | img_url: 'master'}}" alt="proiden">
-    <div class="text_col text_col2 image-with-text__text rte">
-    <h2 class="image-with-text__heading h1">{{section.settings.heading2}}</h2>
-     {{section.settings.text2}}
-      <a class="button button--primary" href=" {{section.settings.link2}}"> {{section.settings.btn2}}</a>
+</div>
+
+<div class="image-with-text page-width color-scheme-background-1" style="margin-top: 2rem;">
+  <div class="image-with-text__grid color-background-1 grid grid--gapless grid--1-col grid--2-col-tablet gradient about-fade-in">
+    <div class="grid__item">
+      <div class="image-with-text__media image-with-text__media--adapt about-fade-in media">
+        <img src="{{ section.settings.image2 | img_url: '750x' }}" alt="{{ section.settings.heading2 }}" loading="lazy" width="750" height="auto">
+      </div>
+    </div>
+    <div class="grid__item">
+      <div class="image-with-text__content image-with-text__content--adapt">
+        <h2 class="image-with-text__heading h1">
+          {{section.settings.heading2}}
+        </h2>
+        <div class="image-with-text__text rte">
+          {{section.settings.text2}}
+        </div>
+        <a href="{{section.settings.link2}}" class="button button--primary">
+          {{section.settings.btn2}}
+        </a>
+      </div>
     </div>
   </div>
-  
 </div>
 
 
