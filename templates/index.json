@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "image_banner": {
@@ -261,6 +252,7 @@
         "6e62cd81-84ca-40bb-b027-406b9b37bcad",
         "0251cf36-1070-42c2-8533-793f1e5c835d"
       ],
+      "disabled": true,
       "settings": {
         "title": "HOW WE WORK",
         "link1": "",
@@ -305,83 +297,88 @@
         "1637050404a4a6b5ae-2",
         "dc97a7ca-0a7d-4326-a8e3-02b99c0d3532"
       ],
-      "disabled": true,
+      "disabled": false,
       "settings": {
-        "title": "how we work",
+        "title": "HOW WE WORK",
         "image_width": "full",
         "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "secondary",
+        "column_alignment": "center",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": false,
+        "columns_desktop": 4,
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "163705967798b88bc9": {
-      "type": "testimonial",
+      "type": "slideshow",
       "blocks": {
         "ce9bc251-ccad-45d6-8f3a-41d6f93b35d0": {
-          "type": "image-text",
+          "type": "slide",
           "settings": {
             "image": "shopify://shop_images/barry_3x_440a183d-aadf-4bb4-a6d3-4f1f7480bf2f.png",
-            "title1": "Barry <br>Sanur, Bali",
-            "text1": "<p>Love all their products, story, and mission! Can only recommend to all pawrents 🐶</p>"
+            "heading": "Barry - Sanur, Bali",
+            "text": "<p>Love all their products, story, and mission! Can only recommend to all pawrents 🐶</p>",
+            "button_label": "",
+            "button_link": "",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "box_align": "center"
           }
         },
         "1637059677146dab62-0": {
-          "type": "image-text",
+          "type": "slide",
           "settings": {
             "image": "shopify://shop_images/wilma_3x_89a7cddb-d97a-4861-aba4-01373cd30f8c.png",
-            "title1": "Wilma <br>Hamburg, Germany",
-            "text1": "<p>We love this very unique and tropical design and also that Kali Dogwear supports street dogs in need. </p>"
+            "heading": "Wilma - Hamburg, Germany",
+            "text": "<p>We love this very unique and tropical design and also that Kali Dogwear supports street dogs in need.</p>",
+            "button_label": "",
+            "button_link": "",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "box_align": "center"
           }
         },
         "2161e0a7-d095-4fdc-8d4e-562593e9381d": {
-          "type": "image-text",
+          "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Peps.jpg",
-            "title1": "Peps <br>Canggu, Bali",
-            "text1": "<p>The best dog supply in Bali! Such a chick and elegant design! I love the beds and especially the bandanas. If it was up to my dog, she would buy all of them.</p>"
-          }
-        },
-        "8c884d8e-0c5a-4143-814a-9584c457141f": {
-          "type": "image-text",
-          "settings": {
-            "image": "shopify://shop_images/Bobbie.jpg",
-            "title1": "Bobbie <br>Amsterdam, Netherlands",
-            "text1": "<p>Our own rescue dog loves his Kali Dogwear Bandanas! </p>"
-          }
-        },
-        "e089f18a-1c26-441b-ae50-6b1e1c72e816": {
-          "type": "image-text",
-          "disabled": true,
-          "settings": {
-            "title1": "Lotta,  Hamburg, Germany",
-            "text1": "<p>Wilma Hamburg, Germany</p>"
+            "heading": "Peps - Canggu, Bali",
+            "text": "<p>The best dog supply in Bali! Such a chick and elegant design! I love the beds and especially the bandanas. If it was up to my dog, she would buy all of them.</p>",
+            "button_label": "",
+            "button_link": "",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "box_align": "center"
           }
         },
         "305eb4c8-7a89-498b-9f4e-76946b2bc8ad": {
-          "type": "image-text",
+          "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Emmet.jpg",
-            "title1": "Emmet,  <br>Ahrensburg, Germany",
-            "text1": "<p>Emmet freut sich sehr über sein Bandana </p>"
+            "heading": "Emmet - Ahrensburg, Germany",
+            "text": "<p>Emmet freut sich sehr über sein Bandana</p>",
+            "button_label": "",
+            "button_link": "",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "box_align": "center"
           }
         },
         "c1742af8-c57f-4699-bb99-48ff20323407": {
-          "type": "image-text",
+          "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Bubbles.jpg",
-            "title1": "Bubbles <br>Milano, Italy",
-            "text1": "<p>Love all of their products, and my dog loves them too!! It's beautiful how they're also helping Bali dogs and the environment with their eco-friendly products. Totally recommend it!</p>"
-          }
-        },
-        "e7cf7d0f-e188-4ebf-a612-d87309c869fc": {
-          "type": "image-text",
-          "settings": {
-            "image": "shopify://shop_images/Ellie.jpg",
-            "title1": "Ellie,  <br>Hamburg, Germany",
-            "text1": "<p>Great and sustainable idea. The products speak for themselves. Thank you also for the good service!</p>"
+            "heading": "Bubbles - Milano, Italy",
+            "text": "<p>Love all of their products, and my dog loves them too!! It's beautiful how they're also helping Bali dogs and the environment with their eco-friendly products. Totally recommend it!</p>",
+            "button_label": "",
+            "button_link": "",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "box_align": "center"
           }
         }
       },
@@ -389,16 +386,17 @@
         "ce9bc251-ccad-45d6-8f3a-41d6f93b35d0",
         "1637059677146dab62-0",
         "2161e0a7-d095-4fdc-8d4e-562593e9381d",
-        "8c884d8e-0c5a-4143-814a-9584c457141f",
-        "e089f18a-1c26-441b-ae50-6b1e1c72e816",
         "305eb4c8-7a89-498b-9f4e-76946b2bc8ad",
-        "c1742af8-c57f-4699-bb99-48ff20323407",
-        "e7cf7d0f-e188-4ebf-a612-d87309c869fc"
+        "c1742af8-c57f-4699-bb99-48ff20323407"
       ],
       "settings": {
-        "title": "what our customers say",
-        "link1": "",
-        "text": ""
+        "title": "What Our Customers Say",
+        "heading_size": "h1",
+        "slide_height": "adapt_image",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "accessibility_info": "Slideshow showing customer testimonials with images"
       }
     },
     "16370500399332968f": {
@@ -595,38 +593,38 @@
       }
     },
     "16421458833c45ee9c": {
-      "type": "testimonial",
+      "type": "multicolumn",
       "blocks": {
         "164214588344b34d5f-0": {
-          "type": "image-text",
+          "type": "column",
           "settings": {
             "image": "shopify://shop_images/Background_2_8dd2cebb-b1c5-4dff-b1d8-f6be4f58706c.png",
-            "title1": "First Aid",
-            "text1": "<p>Very severe cases have to go straight to the vet clinic to get treated.<br/>Broken bones, burns, distemper, Parvovirus – only to name a few can be life threatning.</p>"
+            "title": "First Aid",
+            "text": "<p>Very severe cases have to go straight to the vet clinic to get treated.<br/>Broken bones, burns, distemper, Parvovirus – only to name a few can be life threatning.</p>"
           }
         },
         "575c6942-3b5c-491e-ab49-1c3940cbc980": {
-          "type": "image-text",
+          "type": "column",
           "settings": {
             "image": "shopify://shop_images/C9C52DBC-EFAD-4A4E-A267-875AE4A2B5AC_1_1743a34c-7409-4c7b-bc5f-33ad34bc3bd2.png",
-            "title1": "Medication",
-            "text1": "<p>There is no day in Bali where you don’t see a street dog in need. Most of them have skin conditions (scabies) and can be easily treated with the right medication.</p>"
+            "title": "Medication",
+            "text": "<p>There is no day in Bali where you don't see a street dog in need. Most of them have skin conditions (scabies) and can be easily treated with the right medication.</p>"
           }
         },
         "856b56e0-964a-4a76-b18e-b5626c79bc10": {
-          "type": "image-text",
+          "type": "column",
           "settings": {
             "image": "shopify://shop_images/Background_f2d0fbe6-e8b6-4b0a-adf1-19dc672bd6d1.png",
-            "title1": "Dumped Puppies",
-            "text1": "<p>Dumped puppies are very common. Left alone from young age, they either make it or not. Several rescuers take them in, treat them and try to find foster or forever homes.</p>"
+            "title": "Dumped Puppies",
+            "text": "<p>Dumped puppies are very common. Left alone from young age, they either make it or not. Several rescuers take them in, treat them and try to find foster or forever homes.</p>"
           }
         },
         "eb573fdd-28ef-4736-9101-763ed688533f": {
-          "type": "image-text",
+          "type": "column",
           "settings": {
             "image": "shopify://shop_images/Background_1_2bd4236d-58e7-4e45-876a-4a6bf05b9fc2.png",
-            "title1": "Traumas",
-            "text1": "<p>Once a dog has been picked up from the streets you will also need to provide after care. It’s about socializing and building trust.</p>"
+            "title": "Traumas",
+            "text": "<p>Once a dog has been picked up from the streets you will also need to provide after care. It's about socializing and building trust.</p>"
           }
         }
       },
@@ -637,9 +635,18 @@
         "eb573fdd-28ef-4736-9101-763ed688533f"
       ],
       "settings": {
-        "title": "",
-        "link1": "",
-        "text": ""
+        "title": "First Aid & Street Dog Rescue",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },

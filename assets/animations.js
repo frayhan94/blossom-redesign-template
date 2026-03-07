@@ -78,11 +78,14 @@ function percentageSeen(element) {
   const elementHeight = element.offsetHeight;
 
   if (elementPositionY > scrollY + viewportHeight) {
+    // If we haven't reached the image yet
     return 0;
   } else if (elementPositionY + elementHeight < scrollY) {
+    // If we've completely scrolled past the image
     return 100;
   }
 
+  // When the image is in the viewport
   const distance = scrollY + viewportHeight - elementPositionY;
   let percentage = distance / ((viewportHeight + elementHeight) / 100);
   return Math.round(percentage);

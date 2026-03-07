@@ -6,31 +6,6 @@
   margin-bottom: 3rem;
 }
 
-/* Page fade-in animation */
-.page-fade-in {
-  opacity: 0;
-  animation: pageFadeIn 0.8s ease-out forwards;
-}
-
-.page-fade-in:first-child {
-  animation-delay: 0.1s;
-}
-
-.page-fade-in:last-child {
-  animation-delay: 0.3s;
-}
-
-@keyframes pageFadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 @media screen and (min-width: 750px) {
   .main-page-title {
     margin-bottom: 4rem;
