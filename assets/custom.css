@@ -854,6 +854,30 @@ section#shopify-section-template--14450464293003__1637134405b6ab29ac {
 
 /* Collection section now uses standard image-with-text component */
 
+/* Global primary buttons - Dawn theme black styling */
+.button.button--primary {
+    background: #000 !important;
+    color: #fff !important;
+    border: 1px solid #000 !important;
+}
+
+.button.button--primary:hover {
+    background: #333 !important;
+    color: #fff !important;
+}
+
+/* Collection page buttons */
+.collection.page-width a.button {
+    background: #000 !important;
+    color: #fff !important;
+    border: 1px solid #000 !important;
+}
+
+.collection.page-width a.button:hover {
+    background: #333 !important;
+    color: #fff !important;
+}
+
 div#Banner-template--14225835884607__16371376455ed7de1d .banner__box.color-background-1 {
     background: none;
     text-align: left;
