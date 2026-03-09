@@ -133,6 +133,9 @@
           {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
           {{ settings.logo | image_url: width: 570 | image_tag: class: 'gift-card__image', alt: logo_alt }}
         {%- else %}
+          <span class="gift-card__image">{{ 'kalidogwear-logo.svg' | inline_asset_content }}</span>
+        {%- endif %}
+        {%- if settings.logo == blank -%}
           <img
             class="gift-card__image"
             src="{{ 'gift-card/card.svg' | shopify_asset_url }}"
