@@ -54,7 +54,9 @@
           "settings": {
             "image": "shopify://shop_images/1.png",
             "title": "Kindness",
-            "text": "<p>We believe in being kind. Kind to other human beings and to animals. You never know what the person in front of you has experienced. We try to always assume the best and to give more than we take.</p>"
+            "text": "<p>We believe in being kind. Kind to other human beings and to animals. You never know what the person in front of you has experienced. We try to always assume the best and to give more than we take.</p>",
+            "link_label": "",
+            "link": ""
           }
         },
         "value-responsibility": {
@@ -62,7 +64,9 @@
           "settings": {
             "image": "shopify://shop_images/2.png",
             "title": "Responsibility",
-            "text": "<p>Every single decision we make has to be made with the big picture in our head. We don\u2019t think \u201Cbut others don\u2019t\u201D \u2013 we rather think \u201Cwhat if we all\u2026?\u201D</p>"
+            "text": "<p>Every single decision we make has to be made with the big picture in our head. We don't think \u201Cbut others don't\u201D \u2013 we rather think \u201Cwhat if we all\u2026?\u201D</p>",
+            "link_label": "",
+            "link": ""
           }
         },
         "value-honesty": {
@@ -70,7 +74,9 @@
           "settings": {
             "image": "shopify://shop_images/3.png",
             "title": "Honesty & Transparency",
-            "text": "<p>We are humans. We make mistakes. We believe in honesty and transparency. Every choice we make we made for a reason and we are happy to share. And we are also okay with saying \u201CWe made a mistake\u201D. This is us.</p>"
+            "text": "<p>We are humans. We make mistakes. We believe in honesty and transparency. Every choice we make we made for a reason and we are happy to share. And we are also okay with saying \u201CWe made a mistake\u201D. This is us.</p>",
+            "link_label": "",
+            "link": ""
           }
         },
         "value-power": {
@@ -78,7 +84,9 @@
           "settings": {
             "image": "shopify://shop_images/Website-Icons-09_1_1.png",
             "title": "The Power Of Many",
-            "text": "<p>We believe in collaboration, in exchange, in discussions. You got feedback for us? Please let us know! You would like to talk about an idea: Yeah for sure! If we all stick to our own business, we can\u2019t grow and learn from each other.</p>"
+            "text": "<p>We believe in collaboration, in exchange, in discussions. You got feedback for us? Please let us know! You would like to talk about an idea: Yeah for sure! If we all stick to our own business, we can't grown and learn from each other.</p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
@@ -97,7 +105,7 @@
         "column_alignment": "center",
         "background_style": "primary",
         "color_scheme": "scheme-1",
-        "columns_mobile": "1",
+        "columns_mobile": "4",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
