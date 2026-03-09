@@ -101,6 +101,131 @@
             <span>Shop</span>
           </a>
         </li>
+        
+        <!-- Add Products dropdown after Shop link -->
+        <li>
+          <header-menu>
+            <details id="Details-HeaderMenu-Products">
+              <summary
+                id="HeaderMenu-Products"
+                class="header__menu-item list-menu__item link focus-inset"
+              >
+                <span>Products</span>
+                {{- 'icon-caret.svg' | inline_asset_content -}}
+              </summary>
+              <ul
+                id="HeaderMenu-MenuList-Products"
+                class="header__submenu list-menu list-menu--disclosure color-{{ section.settings.menu_color_scheme }} gradient caption-large motion-reduce global-settings-popup"
+                role="list"
+                tabindex="-1"
+              >
+                <li>
+                  <a
+                    id="HeaderMenu-Products-Bandanas"
+                    href="/collections/bandanas"
+                    class="header__menu-item list-menu__item link link--text focus-inset caption-large"
+                  >
+                    Bandanas
+                  </a>
+                </li>
+                <li>
+                  <a
+                    id="HeaderMenu-Products-Toys"
+                    href="/collections/toys"
+                    class="header__menu-item list-menu__item link link--text focus-inset caption-large"
+                  >
+                    Toys
+                  </a>
+                </li>
+                <li>
+                  <a
+                    id="HeaderMenu-Products-Dog-Bowls"
+                    href="/collections/dog-bowls"
+                    class="header__menu-item list-menu__item link link--text focus-inset caption-large"
+                  >
+                    Dog Bowls
+                  </a>
+                </li>
+                <li>
+                  <a
+                    id="HeaderMenu-Products-Dog-Beds"
+                    href="/collections/dog-beds"
+                    class="header__menu-item list-menu__item link link--text focus-inset caption-large"
+                  >
+                    Dog Beds
+                  </a>
+                </li>
+                <li>
+                  <a
+                    id="HeaderMenu-Products-Collars"
+                    href="/collections/collars"
+                    class="header__menu-item list-menu__item link link--text focus-inset caption-large"
+                  >
+                    Collars
+                  </a>
+                </li>
+                <li>
+                  <a
+                    id="HeaderMenu-Products-Dog-Leashes"
+                    href="/collections/dog-leashes"
+                    class="header__menu-item list-menu__item link link--text focus-inset caption-large"
+                  >
+                    Leashes
+                  </a>
+                </li>
+                <li>
+                  <a
+                    id="HeaderMenu-Products-Totebags"
+                    href="/collections/totebags"
+                    class="header__menu-item list-menu__item link link--text focus-inset caption-large"
+                  >
+                    Tote Bags
+                  </a>
+                </li>
+                <li>
+                  <a
+                    id="HeaderMenu-Products-Raincoat"
+                    href="/collections/raincoat"
+                    class="header__menu-item list-menu__item link link--text focus-inset caption-large"
+                  >
+                    Raincoat
+                  </a>
+                </li>
+                <li>
+                  <a
+                    id="HeaderMenu-Products-Treats"
+                    href="/collections/treats"
+                    class="header__menu-item list-menu__item link link--text focus-inset caption-large"
+                  >
+                    Treats
+                  </a>
+                </li>
+              </ul>
+            </details>
+          </header-menu>
+        </li>
+        
+        <!-- Add About link after Products dropdown -->
+        <li>
+          <a
+            id="HeaderMenu-About"
+            href="/pages/about"
+            class="header__menu-item list-menu__item link link--text focus-inset"
+          >
+            <span>About</span>
+          </a>
+        </li>
+        
+        <!-- Add Blog link after About link -->
+        <li>
+          <a
+            id="HeaderMenu-Blog"
+            href="/blogs/news"
+            class="header__menu-item list-menu__item link link--text focus-inset"
+          >
+            <span>Blog</span>
+          </a>
+        </li>
       {%- endif -%}
     {%- endfor -%}
   </ul>
