@@ -99,8 +99,19 @@
         {%- endif -%}
       </li>
       
-      <!-- Add Products dropdown after Home link -->
+      <!-- Add Shop link after Home link -->
       {%- if link.handle == 'home' or link.url == '/' -%}
+        <li>
+          <a
+            id="HeaderMenu-Shop"
+            href="/pages/shop"
+            class="header__menu-item list-menu__item link link--text focus-inset"
+          >
+            <span>Shop</span>
+          </a>
+        </li>
+        
+        <!-- Add Products dropdown after Home link -->
         <li>
           <header-menu>
             <details id="Details-HeaderMenu-Products">

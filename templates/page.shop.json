@@ -86,7 +86,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop now",
-            "button_link": "shopify://collections/leashes"
+            "button_link": "shopify://collections/dog-leashes"
           }
         }
       },
